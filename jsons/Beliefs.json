@@ -17,7 +17,7 @@
 	{
 		"name": "Fertility Rites",
 		"type": "Pantheon",
-		"uniques": ["Free [Worker] appears", "[+10]% growth [in this city]"]
+		"uniques": ["[+100]% Production when constructing [Worker] units [in this city]", "[+10]% growth [in this city]"]
 	},
 	{
 		"name": "God of the Forge",
@@ -55,14 +55,9 @@
 		"uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion] <before the [Medieval era]>"]
 	},
 	{
-		"name": "One True God",
-		"type": "Pantheon",
-		"uniques": ["[-15]% Faith cost of generating Great Prophet equivalents", "[+1 Faith] per [4] population [in cities following this religion]"]
-	},
-	{
 		"name": "Religious Settlements",
 		"type": "Pantheon",
-		"uniques": ["Free [Settler] appears", "[-15]% Culture cost of natural border growth [in this city]"]
+		"uniques": ["[+50]% Production when constructing [Settler] units [in this city]", "[-15]% Culture cost of natural border growth [in this city]"]
 	},
 	{
 		"name": "Sacred Path",
@@ -92,7 +87,7 @@
 	{
 		"name": "Great Awakening",
 		"type": "Follower",
-		"uniques": ["[+1 Science, +1 Faith] from all [Faith] buildings <in cities with at least [5] Followers of this Religion>", "[+25]% [Science] from every [Temple] <starting from the [Renaissance era]>"]
+		"uniques": ["[+1 Science, +1 Faith] from all [Faith] buildings <in cities with at least [5] [Followers of this Religion]>", "[+25]% [Science] from every [Temple] <starting from the [Renaissance era]>"]
 	},
 	{
 		"name": "Jesuit Education",
