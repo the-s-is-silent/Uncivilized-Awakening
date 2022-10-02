@@ -107,7 +107,7 @@
 	{
 		"name": "Monumentality",
 		"type": "Follower",
-		"uniques": ["[+1] Movement <for [Civilian] units>", "May buy [Worker] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>", "May buy [Settler] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
+		"uniques": ["[+1] Movement <for [Worker] units>", "[+1] Movement <for [Settler] units>", "May buy [Worker] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>", "May buy [Settler] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
 	},
 	{
 		"name": "Religious Community",
