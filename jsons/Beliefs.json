@@ -105,11 +105,6 @@
 		"uniques": ["[+3 Science] from every [Holy site]", "[-25]% [Culture] [in all cities]"]
 	},
 	{
-		"name": "Monumentality",
-		"type": "Follower",
-		"uniques": ["[+1] Movement <for [Worker] units>", "[+1] Movement <for [Settler] units>", "May buy [Worker] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>", "May buy [Settler] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
-	},
-	{
 		"name": "Religious Community",
 		"type": "Follower",
 		"uniques": ["[+3 Production] from every [Holy site]", "[+1 Production] per [5] population [in cities following this religion]"]
@@ -150,12 +145,17 @@
 
   ///////////////////////////////////////// Enhancer beliefs /////////////////////////////////////////
 
-  //TODO: All of these are too strong to be Enhancer beliefs and should be Reformation, once that belief type is properly implemented
+  //TODO: All of these are too strong for this belief type and should be Reformation, once that belief type is properly implemented
 
  	{
 		"name": "Exodus of the Evangelists",
 		"type": "Enhancer",
 		"uniques": ["[+4 Faith] [in holy cities]", "[+2] Movement <for [Religious] units>", "[Missionary] units built [in cities following this religion] can [Spread Religion] [2] extra times", "[Great Prophet] units built [in cities following this religion] can [Spread Religion] [2] extra times"]
+	},
+	{
+		"name": "Monumentality",
+		"type": "Follower",
+		"uniques": ["[+1] Movement <for [Civilian] units>", "May buy [Worker] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>", "May buy [Settler] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
 	},
 	{
 		"name": "Religious Fervor",
