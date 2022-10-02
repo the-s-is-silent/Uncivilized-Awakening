@@ -92,7 +92,7 @@
 	{
 		"name": "Great Awakening",
 		"type": "Follower",
-		"uniques": ["[+1 Science, +1 Faith] from all [Faith] buildings <in cities with at least [5] Followers of this Religion>", "[+25]% [Science] from every [Temple] <starting from the [Renaissance era]>]
+		"uniques": ["[+1 Science, +1 Faith] from all [Faith] buildings <in cities with at least [5] Followers of this Religion>", "[+25]% [Science] from every [Temple] <starting from the [Renaissance era]>"]
 	},
 	{
 		"name": "Jesuit Education",
