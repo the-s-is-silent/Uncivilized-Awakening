@@ -107,7 +107,7 @@
 	{
 		"name": "Monasticism",
 		"type": "Follower",
-		"uniques": ["[+3 Science] from every [Holy site]", ["[-25]% [Culture] [in all cities]"]
+		"uniques": ["[+3 Science] from every [Holy site]", "[-25]% [Culture] [in all cities]"]
 	},
 	{
 		"name": "Monumentality",
