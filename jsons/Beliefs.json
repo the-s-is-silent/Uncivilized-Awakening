@@ -71,7 +71,9 @@
 	},
   
   ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
-  
+
+  // TODO: Any beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs (although Linga might not be too strong to remain a Follower belief) once that belief type from BNW is properly implemented. Same applies to Monumentality for its sheer power
+
 	{
 		"name": "Choral Music",
 		"type": "Follower",
@@ -89,17 +91,17 @@
 	},
 	{
 		"name": "Great Awakening",
-		"type": "Follower", //TODO: Intended to be a Reformation belief, will adjust belief strength accordingly once Reformation beliefs are implemented
+		"type": "Follower",
 		"uniques": ["[+1 Science, +1 Faith] from all [Faith] buildings <in cities with at least [5] Followers of this Religion>", "[+25]% [Science] from every [Temple] <starting from the [Renaissance era]>]
 	},
 	{
 		"name": "Jesuit Education",
-		"type": "Follower", //TODO: Should be Reformation, waiting for Reformation belief type from BNW to be implemented
+		"type": "Follower",
 		"uniques": ["May buy [University] buildings with [Faith] for [2] times their normal Production cost", "May buy [Observatory] buildings with [Faith] for [2] times their normal Production cost", "May buy [Public School] buildings with [Faith] for [2] times their normal Production cost"]
 	},
 	{
 		"name": "Linga",
-		"type": "Follower", //TODO: Like with any other beliefs that allow the purchase of non-Faith buildings with Faith, it might be best to make this into a Reformation belief once Reformation beliefs are implemented
+		"type": "Follower",
 		"uniques": ["May buy [Lighthouse] buildings with [Faith] for [2] times their normal Production cost", "May buy [Harbor] buildings with [Faith] for [2] times their normal Production cost", "May buy [Seaport] buildings with [Faith] for [2] times their normal Production cost"]
 	},
 	{
@@ -109,7 +111,7 @@
 	},
 	{
 		"name": "Monumentality",
-		"type": "Follower", //Given the sheer power of this Golden Age dedication in Civ 6, it should be changed into a Reformation belief once Reformation beliefs are implemented
+		"type": "Follower",
 		"uniques": ["[+1] Movement <for [Civilian] units>", "May buy [Worker] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>", "May buy [Settler] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
 	},
 	{
@@ -153,19 +155,21 @@
 
   ///////////////////////////////////////// Enhancer beliefs /////////////////////////////////////////
 
+  //TODO: All of these are too strong to be Enhancer beliefs and should be Reformation, once that belief type is properly implemented
+
  	{
 		"name": "Exodus of the Evangelists",
-		"type": "Enhancer", //TODO: This is too strong to be any belief type but Reformation once Reformation beliefs are implemented
+		"type": "Enhancer",
 		"uniques": ["[+4 Faith] [in holy cities]", "[+2] Movement <for [Religious] units>", "[Missionary] units built [in cities following this religion] can [Spread Religion] [2] extra times", "[Great Prophet] units built [in cities following this religion] can [Spread Religion] [2] extra times"]
 	},
 	{
 		"name": "Religious Fervor",
-		"type": "Enhancer", //TODO: Should be Reformation, waiting for Reformation belief type from BNW to be implemented
+		"type": "Enhancer",
 		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>"]
 	},
 	{
 		"name": "Simultaneum",
-		"type": "Enhancer", //TODO: Should be Reformation (and is too strong to be any other belief type), waiting for Reformation belief type from BNW to be implemented
+		"type": "Enhancer",
 		"uniques": ["[+100]% Yield from every [Holy site] [in cities following this religion]", "[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion>]"]
 	},
 ]
