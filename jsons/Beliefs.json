@@ -108,6 +108,7 @@
 		"name": "Religious Community",
 		"type": "Follower",
 		"uniques": ["[+2 Production] from every [Holy site]", "[+1 Production] per [5] population [in cities following this religion]"]
+	},
 
   ///////////////////////////////////////// Founder beliefs /////////////////////////////////////////
   
