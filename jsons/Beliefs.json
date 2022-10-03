@@ -160,6 +160,6 @@
 	{
 		"name": "Simultaneum",
 		"type": "Enhancer",
-		"uniques": ["[+100]% Yield from every [Holy site] [in cities following this religion]", "[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>"]
+		"uniques": ["[+100]% Yield from every [Holy site]", "[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>"]
 	},
 ]
