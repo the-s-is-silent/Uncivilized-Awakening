@@ -62,12 +62,12 @@
 	{
 		"name": "Sacred Path",
 		"type": "Pantheon",
-		"uniques": ["[+1 Culture, +1 Faith] from every [Jungle]"]
+		"uniques": ["[+1 Culture] from every [Forest]", "[+1 Culture] from every [Jungle]"]
 	},
   
   ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
 
-  // TODO: Any beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs (although Linga might not be too strong to remain a Follower belief) once that belief type from BNW is properly implemented. Same applies to Monumentality for its sheer power
+  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented.
 
 	{
 		"name": "Choral Music",
@@ -87,7 +87,7 @@
 	{
 		"name": "Great Awakening",
 		"type": "Follower",
-		"uniques": ["[+1 Science, +1 Faith] from all [Faith] buildings <in cities with at least [5] [Followers of this Religion]>", "[+25]% [Science] from every [Temple] <starting from the [Renaissance era]>"]
+		"uniques": ["[+2 Science] from every [Temple]", "[+50]% [Science] from every [Grand Temple] <starting from the [Renaissance era]>"]
 	},
 	{
 		"name": "Jesuit Education",
@@ -103,11 +103,6 @@
 		"name": "Monasticism",
 		"type": "Follower",
 		"uniques": ["[+3 Science] from every [Holy site]", "[-25]% [Culture] [in all cities]"]
-	},
-	{
-		"name": "Religious Community",
-		"type": "Follower",
-		"uniques": ["[+3 Production] from every [Holy site]", "[+1 Production] per [5] population [in cities following this religion]"]
 	},
   
   ///////////////////////////////////////// Founder beliefs /////////////////////////////////////////
