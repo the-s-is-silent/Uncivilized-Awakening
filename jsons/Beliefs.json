@@ -17,7 +17,7 @@
 	{
 		"name": "Fertility Rites",
 		"type": "Pantheon",
-		"uniques": ["[+100]% Production when constructing [Worker] units [in this city]", "[+10]% growth [in this city]"]
+		"uniques": ["[+100]% Production when constructing [Worker] units [in this city]", "[+1 Food] [in this city]", "[+10]% growth [in this city]"]
 	},
 	{
 		"name": "God of the Forge",
@@ -40,9 +40,9 @@
 		"uniques": ["[+1 Food, +1 Production] from every [Camp]"]
 	},
 	{
- 		"name": "Great Nusantara",
+		"name": "Hallowed Grove",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from every [Coast]", "[+1 Faith] from every [Lake]"]
+		"uniques": ["[+1 Faith] from every [Forest]"]
 	},
 	{
 		"name": "Lady of the Reeds and Marshes",
@@ -62,7 +62,7 @@
 	{
 		"name": "Sacred Path",
 		"type": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Forest]", "[+1 Culture] from every [Jungle]"]
+		"uniques": ["[+1 Culture, +1 Faith] from every [Jungle]"]
 	},
   
   ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
@@ -78,6 +78,11 @@
 		"name": "Dāna",
 		"type": "Follower",
 		"uniques": ["[+3 Faith, +1 Happiness] from every [Granary]"]
+	},
+	{
+		"name": "Divine Inspiration",
+		"type": "Follower",
+		"uniques": ["[+4 Faith] <in cities with a [Wonder]> [in cities following this religion]"]
 	},
 	{
 		"name": "Feed the World",
@@ -105,9 +110,14 @@
 		"uniques": ["[+3 Science] from every [Holy site]", "[-25]% [Culture] [in all cities]"]
 	},
 	{
-		"name": "Religious Community",
+		"name": "Swords into Ploughshares",
 		"type": "Follower",
-		"uniques": ["[+2 Production] from every [Holy site]", "[+1 Production] per [5] population [in cities following this religion]"]
+		"uniques": ["[+1 Food] from [Farm] tiles [in cities following this religion] <when not at war>", "[+15]% growth [in this city] <when not at war>"]
+	},
+	{
+		"name": "Works of Righteousness",
+		"type": "Follower",
+		"uniques": ["[+2 Production] from every [Holy site]", "[+1 Production] per [4] population [in cities following this religion]"]
 	},
 
   ///////////////////////////////////////// Founder beliefs /////////////////////////////////////////
