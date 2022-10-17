@@ -80,9 +80,9 @@
 		"uniques": ["[+3 Faith, +1 Happiness] from every [Granary]"]
 	},
 	{
-		"name": "Divine Inspiration",
+		"name": "Divine inspiration",
 		"type": "Follower",
-		"uniques": ["[+4 Faith] <in cities with a [Wonder]> [in cities following this religion]"]
+		"uniques": ["[+4 Faith] <in cities with a [Wonder]>"]
 	},
 	{
 		"name": "Feed the World",
