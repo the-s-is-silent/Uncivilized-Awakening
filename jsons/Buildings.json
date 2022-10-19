@@ -1,0 +1,51 @@
+[
+
+// Wonders
+
+	{
+		"name": "Moorehead Circle",
+		"faith": 7,
+		"cost": 220,
+		"isWonder": true,
+		"uniques": ["Must be on [Grassland]", "[+1 Gold] from each Trade Route", "Destroyed when the city is captured"],
+		"requiredTech": "Pottery",
+		"quote": "'The circle was probably the focus of their ceremonial life ... and the reason people came here from miles away.' - Robert Riordan"
+	},
+	{
+		"name": "Texcotzingo",
+		"food": 6,
+		"faith": 4,
+		"cost": 250,
+		"isWonder": true,
+		"uniques": ["Must be next to [Fresh water]", "Gain a free [Garden] [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Mathematics",
+		"quote": "'With their sensitivity to the beauty of flowers, birds and gems, their strength of religious feeling ... these ancient Mexicans were civilized men.' - Jacques Soustelle"
+	},
+	{
+		"name": "Grand Master's Chapel",
+		"faith": 5,
+		"maintenance": 2,
+		"isNationalWonder": true,
+		"cost": 290,
+		"uniques": ["Can only be built [in capital]", "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost"]
+		"requiredTech": "Theology"
+	},
+
+// Worship Buildings
+
+	{
+		"name": "Gurdwara",
+		"cost": 0,
+		"faith": 3,
+		"food": 2,
+		"uniques": ["[+15]% growth [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Meeting House",
+		"cost": 0,
+		"faith": 3,
+		"production": 2,
+		"percentStatBonus": {"production": 5},
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+]
