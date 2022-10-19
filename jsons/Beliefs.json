@@ -7,7 +7,12 @@
 	{
 		"name": "Dance of the Aurora",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from every [Tundra]"]
+		"uniques": ["[+1 Faith] from [Tundra] tiles <within [2] tiles of a [City center]>"]
+	},
+	{
+		"name": "Desert Folklore",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from [Desert] tiles <within [2] tiles of a [City center]>"]
 	},
 	{
 		"name": "Divine Spark",
@@ -17,13 +22,12 @@
 	{
 		"name": "Faith Healers",
 		"type": "Pantheon",
-		"uniques": ["All newly-trained [relevant] units built [in this city] receive the [Medic I] promotion", "[All] units adjacent to this city heal [30] HP per turn when healing"]
-		//This should be worded better
+		"uniques": ["All newly-trained [Land] units built [in this city] receive the [Rejuvenation] promotion", "[All] units adjacent to this city heal [30] HP per turn when healing"]
 	},
 	{
 		"name": "Fertility Rites",
 		"type": "Pantheon",
-		"uniques": ["[+100]% Production when constructing [Worker] units [in this city]", "[+1 Food] [in this city]", "[+10]% growth [in this city]"]
+		"uniques": ["[+100]% Production when constructing [Worker] units [in this city]", "[+2 Food] [in this city]", "[+10]% growth [in this city]"]
 	},
 	{
 		"name": "God of the Forge",
@@ -41,6 +45,11 @@
 		"uniques": ["[+1 Food, +1 Gold] from every [Plantation]"]
 	},
 	{
+		"name": "Goddess of Protection",
+		"type": "Pantheon",
+		"uniques": ["[+50]% Strength for cities <when attacking>", "[+1 Faith] from every [Walls]", "[+2 Faith] from every [Castle]"]
+	},
+	{
 		"name": "Goddess of the Hunt",
 		"type": "Pantheon",
 		"uniques": ["[+1 Food, +1 Production] from every [Camp]"]
@@ -48,7 +57,7 @@
 	{
 		"name": "Hallowed Grove",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from every [Forest]"]
+		"uniques": ["[+1 Faith] from [Forest] tiles [in this city]"]
 	},
 	{
 		"name": "Lady of the Reeds and Marshes",
@@ -63,17 +72,17 @@
 	{
 		"name": "Religious Settlements",
 		"type": "Pantheon",
-		"uniques": ["[+50]% Production when constructing [Settler] units [in this city]", "[-15]% Culture cost of natural border growth [in this city]"]
+		"uniques": ["[+50]% Production when constructing [Settler] units [in this city]", "[+1 Culture] [in this city]", "[-15]% Culture cost of natural border growth [in this city]"]
 	},
 	{
 		"name": "Sacred Path",
 		"type": "Pantheon",
-		"uniques": ["[+1 Culture, +1 Faith] from every [Jungle]"]
+		"uniques": ["[+1 Faith] from [Jungle] tiles [in this city]"]
 	},
   
   ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
 
-  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented.
+  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be quite powerful enough to justify being reassigned to Reformation.
 
 	{
 		"name": "Choral Music",
@@ -99,6 +108,11 @@
 		"name": "Great Awakening",
 		"type": "Follower",
 		"uniques": ["[+2 Science] from every [Temple]", "[+50]% [Science] from every [Grand Temple] <starting from the [Renaissance era]>"]
+	},
+	{
+		"name": "Holy Warriors",
+		"type": "Follower",
+		"uniques": ["[+1 Faith] from every [Barracks]", "[+2 Faith] from every [Armory]", "[+3 Faith] from every [Military Academy]"]
 	},
 	{
 		"name": "Jesuit Education",
