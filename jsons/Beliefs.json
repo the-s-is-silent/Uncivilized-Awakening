@@ -110,6 +110,11 @@
 		"uniques": ["[+2 Science] from every [Temple]", "[+50]% [Science] from every [Grand Temple] <starting from the [Renaissance era]>"]
 	},
 	{
+		"name": "Gurdwaras",
+		"type": "Follower",
+		"uniques": ["May buy [Gurdwara] buildings with [Faith] [in cities following this religion]"]
+	},
+	{
 		"name": "Holy Warriors",
 		"type": "Follower",
 		"uniques": ["[+1 Faith] from every [Barracks]", "[+2 Faith] from every [Armory]", "[+3 Faith] from every [Military Academy]"]
@@ -123,6 +128,11 @@
 		"name": "Linga",
 		"type": "Follower",
 		"uniques": ["May buy [Lighthouse] buildings with [Faith] for [2] times their normal Production cost", "May buy [Harbor] buildings with [Faith] for [2] times their normal Production cost", "May buy [Seaport] buildings with [Faith] for [2] times their normal Production cost"]
+	},
+	{
+		"name": "Meeting Houses",
+		"type": "Follower",
+		"uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
 		"name": "Monasticism",
