@@ -7,12 +7,12 @@
 	{
 		"name": "Dance of the Aurora",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from [Tundra] tiles <within [2] tiles of a [City center]>"]
+		"uniques": ["[+1 Faith] from [Tundra] tiles [in this city]"]
 	},
 	{
 		"name": "Desert Folklore",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from [Desert] tiles <within [2] tiles of a [City center]>"]
+		"uniques": ["[+1 Faith] from [Desert] tiles [in this city]"]
 	},
 	{
 		"name": "Divine Spark",
