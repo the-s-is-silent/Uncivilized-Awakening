@@ -48,4 +48,11 @@
 		"percentStatBonus": {"production": 5},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
+	{
+		"name": "Stupa",
+		"cost": 0,
+		"faith": 3,
+		"happiness": 2,
+		"uniques": ["[+1 Happiness] per [10] population [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+	},
 ]
