@@ -22,12 +22,23 @@
 		"quote": "'With their sensitivity to the beauty of flowers, birds and gems, their strength of religious feeling ... these ancient Mexicans were civilized men.' - Jacques Soustelle"
 	},
 	{
+		"name": "Apostolic Palace",
+		"isWonder": true,
+		"culture": 4,
+		"faith": 8,
+		"greatPersonPoints": {"Great Prophet": 2},
+		"cost": 400,
+		"uniques": ["[+2 Production] from all [Faith] buildings [in all cities]", "May choose [1] additional beliefs [of any type] when [enhancing] a religion", "Hidden when religion is disabled"],
+		"requiredTech": "Theology",
+		"quote": "'A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral.' - Antoine de Saint-Exupery"
+	},
+	{
 		"name": "Grand Master's Chapel",
 		"faith": 5,
 		"maintenance": 2,
 		"isNationalWonder": true,
 		"cost": 290,
-		"uniques": ["Can only be built [in capital]", "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost"]
+		"uniques": ["Can only be built [in capital]", "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "Hidden when religion is disabled"]
 		"requiredTech": "Theology"
 	},
 
