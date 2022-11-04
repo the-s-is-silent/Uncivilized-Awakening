@@ -20,14 +20,24 @@
 		"uniques": ["[+25]% Great Person generation [in cities following this religion]"]
 	},
 	{
+		"name": "Earth Mother",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from every [Mine]"]
+	},
+	{
 		"name": "Faith Healers",
 		"type": "Pantheon",
-		"uniques": ["All newly-trained [{Military} {Land}] units built [in this city] receive the [Faith Healers] promotion", "[All] units adjacent to this city heal [25] HP per turn when healing"]
+		"uniques": ["All newly-trained [Land] units [in this city] receive the [Faith Healers] promotion", "[All] units adjacent to this city heal [25] HP per turn when healing"]
 	},
 	{
 		"name": "Fertility Rites",
 		"type": "Pantheon",
 		"uniques": ["[+100]% Production when constructing [Worker] units [in this city]", "[+2 Food] [in this city]", "[+10]% growth [in this city]"]
+	},
+	{
+		"name": "God of Craftsman",
+		"type": "Pantheon",
+		"uniques": ["[+1 Production, +1 Faith] from every [Strategic resource]"]
 	},
 	{
 		"name": "God of the Forge",
@@ -79,6 +89,11 @@
 		"type": "Pantheon",
 		"uniques": ["[+1 Faith] from [Jungle] tiles [in this city]"]
 	},
+	{
+		"name": "Sun God",
+		"type": "Pantheon",
+		"uniques": ["[+1 Food, +1 Production] from every [Bananas]", "[+1 Food, +1 Production] from every [Citrus]", "[+1 Food, +1 Production] from every [Cocoa]", "[+1 Food, +1 Production] from every [Wheat]"]
+	},
 
   ///////////////////////////////////////// Founder beliefs /////////////////////////////////////////
 
@@ -98,6 +113,11 @@
 		"uniques": ["[+1 Faith] from all [Faith] buildings [in cities following this religion]", "[+1 Culture] from all [Culture] buildings <in cities with at least [5] [Followers of this Religion]>"]
 	},
 	{
+		"name": "Papal Primacy",
+		"type": "Founder",
+		"uniques": ["Resting point for Influence with City-States following this religion [+20]", "[Faith] cost of purchasing [All] units [-10]% <when at war>"]
+	},
+	{
 		"name": "Pilgrimage",
 		"type": "Founder",
 		"uniques": ["[+3 Faith] for each global city following this religion"]
@@ -115,7 +135,7 @@
 
   ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
 
-  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be quite powerful enough to justify being reassigned to Reformation.
+  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be quite powerful enough to justify being reassigned to Reformation. The augmented Swords into Ploughshares belief should also be Reformation.
 
 	{
 		"name": "Choral Music",
@@ -163,6 +183,11 @@
 		"uniques": ["May buy [Lighthouse] buildings with [Faith] for [2] times their normal Production cost", "May buy [Harbor] buildings with [Faith] for [2] times their normal Production cost", "May buy [Seaport] buildings with [Faith] for [2] times their normal Production cost"]
 	},
 	{
+		"name": "Liturgical Drama",
+		"type": "Follower",
+		"uniques": ["[+2 Faith] from every [Amphitheater]", "[+2 Faith] from every [Opera House]"]
+	},
+	{
 		"name": "Meeting Houses",
 		"type": "Follower",
 		"uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
@@ -200,7 +225,7 @@
 	{
 		"name": "Monumentality",
 		"type": "Enhancer",
-		"uniques": ["[+1] Movement <for [Civilian] units>", "May buy [Worker] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>", "May buy [Settler] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
+		"uniques": ["[+1] Movement <for [Civilian] units>", "May buy [Worker] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>", "May buy [Settler] units with [Faith] for [3] times their normal Production cost <before the [Industrial era]>"]
 	},
 	{
 		"name": "Simultaneum",
