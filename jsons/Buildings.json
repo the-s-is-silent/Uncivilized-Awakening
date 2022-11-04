@@ -28,7 +28,7 @@
 		"faith": 8,
 		"greatPersonPoints": {"Great Prophet": 2},
 		"cost": 400,
-		"uniques": ["[+2 Production] from all [Faith] buildings [in all cities]", "May choose [1] additional beliefs [of any type] when [enhancing] a religion", "Hidden when religion is disabled"],
+		"uniques": ["[+2 Production] from all [Faith] buildings", "May choose [1] additional belief(s) of any type when [enhancing] a religion", "Hidden when religion is disabled"],
 		"requiredTech": "Theology",
 		"quote": "'A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral.' - Antoine de Saint-Exupery"
 	},
