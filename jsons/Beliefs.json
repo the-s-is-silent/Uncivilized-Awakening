@@ -115,7 +115,7 @@
 	{
 		"name": "Papal Primacy",
 		"type": "Founder",
-		"uniques": ["Resting point for Influence with City-States following this religion [+20]", "[Faith] cost of purchasing [All] units [-10]% <when at war>"]
+		"uniques": ["Resting point for Influence with City-States following this religion [+20]", "[Faith] cost of purchasing [All] units [-20]% <when at war>"]
 	},
 	{
 		"name": "Pilgrimage",
@@ -196,6 +196,11 @@
 		"name": "Monasticism",
 		"type": "Follower",
 		"uniques": ["[+3 Science] from every [Holy site]", "[-25]% [Culture] [in all cities]"]
+	},
+	{
+		"name": "Papal Brief",
+		"type": "Follower",
+		"uniques": ["May buy [Basilica] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
 		"name": "Stupas",
