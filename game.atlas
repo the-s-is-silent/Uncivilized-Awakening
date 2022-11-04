@@ -1,0 +1,76 @@
+
+game.png
+size: 1250, 450
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Apostolic Palace
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Basilica
+  rotate: false
+  xy: 200, 0
+  size: 2o0, 200
+  orig: 2o0, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gurdwara
+  rotate: false
+  xy: 400, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Grand Master's Chapel
+  rotate: false
+  xy: 600, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stupa
+  rotate: false
+  xy: 810, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Meeting House
+  rotate: false
+  xy: 1011, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Texcotzingo
+  rotate: false
+  xy: 0, 216
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Moorehead Circle
+  rotate: false
+  xy: 253, 216
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/Restorationism
+  rotate: false
+  xy: 491, 216
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Faith Healers
+  rotate: false
+  xy: 746, 214
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
