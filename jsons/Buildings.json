@@ -48,7 +48,8 @@
 		"name": "Basilica",
 		"cost": 0,
 		"faith": 5,
-		"uniques": ["[+25]% [Faith] [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+		"percentStatBonus": {"faith": 25},
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Gurdwara",
