@@ -1,5 +1,5 @@
 [
-	(
+	{
 		"name": "Ancestor Worship",
 		"type": "Pantheon",
 		"uniques": ["[+1 Faith] from every [Memorial]", "[+1 Culture] from every [Shrine]"]
