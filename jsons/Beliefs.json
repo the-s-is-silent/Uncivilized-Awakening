@@ -1,4 +1,9 @@
 [
+	(
+		"name": "Ancestor Worship",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from every [Memorial]", "[+1 Culture] from every [Shrine]"]
+	},
 	{
 		"name": "City Patron Goddess",
 		"type": "Pantheon",
@@ -7,12 +12,12 @@
 	{
 		"name": "Dance of the Aurora",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from [Tundra] tiles [in this city]"]
+		"uniques": ["[+1 Faith] from [Tundra] tiles <within [2] tiles of a [City center]>"]
 	},
 	{
 		"name": "Desert Folklore",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from [Desert] tiles [in this city]"]
+		"uniques": ["[+1 Faith] from [Desert] tiles <within [2] tiles of a [City center]>"]
 	},
 	{
 		"name": "Divine Spark",
@@ -135,7 +140,7 @@
 
   ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
 
-  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be quite powerful enough to justify being reassigned to Reformation. The augmented Swords into Ploughshares belief should also be Reformation.
+  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be quite powerful enough to justify being reassigned to Reformation. The augmented Swords into Ploughshares belief should also be changed into Reformation.
 
 	{
 		"name": "Choral Music",
