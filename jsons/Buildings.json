@@ -22,6 +22,13 @@
 		"quote": "'With their sensitivity to the beauty of flowers, birds and gems, their strength of religious feeling ... these ancient Mexicans were civilized men.' - Jacques Soustelle"
 	},
 	{
+		"name": "National Pantheon",
+		"isNationalWonder": true,
+		"faith": 3,
+		"uniques": ["Gain a free [Pantheon] belief", "[+25 Faith] whenever a Great Person is expended", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled"],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
 		"name": "Apostolic Palace",
 		"isWonder": true,
 		"culture": 4,
