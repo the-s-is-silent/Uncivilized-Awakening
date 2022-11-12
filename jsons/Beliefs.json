@@ -140,7 +140,7 @@
 
   ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
 
-  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be quite powerful enough to justify being reassigned to Reformation. The augmented Swords into Ploughshares belief should also be changed into Reformation.
+  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be quite powerful enough to justify being reassigned to Reformation. The augmented Swords into Ploughshares belief should also be changed into Reformation. The other thing that's really needed here besides proper Reformation Beliefs in the far future is a mod option to exclude specific beliefs without making an entire new ruleset, because honestly, some of the beliefs are just so weak that they have no business existing and there isn't much of a point in trying to buff them to make them worthwhile. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end.
 
 	{
 		"name": "Choral Music",
