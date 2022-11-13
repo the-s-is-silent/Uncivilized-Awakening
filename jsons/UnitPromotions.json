@@ -1,5 +1,6 @@
 [
-{
+//Uniques that should be kept on upgrades
+	{
 		"name": "Faith Healers",
 		"uniques": ["All adjacent units heal [5] HP when healing"]
 	},
