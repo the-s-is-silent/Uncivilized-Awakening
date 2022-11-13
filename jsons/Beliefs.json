@@ -1,5 +1,5 @@
 [
-  //TODO: Two things are really needed here before this enhancement mod can be considered to be in a "finalized" state: proper Reformation Beliefs, which I expect to only come in the far future, and a mod option to exclude specific beliefs without making an entire new ruleset, because honestly, some of the beliefs are just so weak that they have no business existing and there isn't much of a point in trying to buff them to make them worthwhile. Implementing Civ 6's separation of Worship Buildings into their own belief type would also be nice, but not necessary. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end.
+  //TODO: Two things are really needed here before this enhancement mod can be considered to be in a "finalized" state: proper Reformation Beliefs, which I expect to only come in the far future, and a mod option to exclude specific beliefs without making an entire new ruleset, because honestly, some of the beliefs in Civ 5 are just so weak that they have no business existing and there isn't much of a point in trying to buff or rework them to make them worthwhile. Implementing Civ 6's separation of Worship Buildings into their own belief type would also be nice, but not necessary. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end.
 	{
 		"name": "Ancestor Worship",
 		"type": "Pantheon",
@@ -151,7 +151,7 @@
 	{
 		"name": "Dāna",
 		"type": "Follower",
-		"uniques": ["[+3 Faith, +1 Happiness] from every [Granary]"]
+		"uniques": ["[+1 Happiness, +3 Faith] from every [Granary]"]
 	},
 	{
 		"name": "Divine inspiration",
@@ -166,7 +166,7 @@
 	{
 		"name": "Great Awakening",
 		"type": "Follower",
-		"uniques": ["[+2 Science] from every [Temple]", "[+50]% [Science] from every [Grand Temple] <starting from the [Renaissance era]>"]
+		"uniques": ["[+2 Science] from every [Temple]", "[+50]% [Science] from every [Grand Temple]"]
 	},
 	{
 		"name": "Gurdwaras",
