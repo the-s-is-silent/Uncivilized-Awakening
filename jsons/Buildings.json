@@ -26,7 +26,7 @@
 		"isNationalWonder": true,
 		"faith": 3,
 		"cost": 155,
-		"uniques": ["Gain a free [Pantheon] belief", "[+25 Faith] whenever a Great Person is expended", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled"],
+		"uniques": ["Gain a free [Pantheon] belief", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
