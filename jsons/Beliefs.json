@@ -1,4 +1,5 @@
 [
+  //TODO: Two things are really needed here before this enhancement mod can be considered to be in a "finalized" state: proper Reformation Beliefs, which I expect to only come in the far future, and a mod option to exclude specific beliefs without making an entire new ruleset, because honestly, some of the beliefs are just so weak that they have no business existing and there isn't much of a point in trying to buff them to make them worthwhile. Implementing Civ 6's separation of Worship Buildings into their own belief type would also be nice, but not necessary. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end.
 	{
 		"name": "Ancestor Worship",
 		"type": "Pantheon",
@@ -140,7 +141,7 @@
 
   ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
 
-  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be quite powerful enough to justify being reassigned to Reformation. The augmented Swords into Ploughshares belief should also be changed into Reformation. The other thing that's really needed here besides proper Reformation Beliefs in the far future is a mod option to exclude specific beliefs without making an entire new ruleset, because honestly, some of the beliefs are just so weak that they have no business existing and there isn't much of a point in trying to buff them to make them worthwhile. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end.
+  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be quite powerful enough to justify being reassigned to Reformation. The augmented Swords into Ploughshares belief should also be changed into Reformation.
 
 	{
 		"name": "Choral Music",
