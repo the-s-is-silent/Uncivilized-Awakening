@@ -166,7 +166,7 @@
 	{
 		"name": "Great Awakening",
 		"type": "Follower",
-		"uniques": ["[+2 Science] from every [Temple]", "[+50]% [Science] from every [Grand Temple]"]
+		"uniques": ["[+2 Science] from every [Temple]", "[+8 Science] from every [Grand Temple]"]
 	},
 	{
 		"name": "Gurdwaras",
@@ -226,8 +226,13 @@
 
   ///////////////////////////////////////// Enhancer beliefs /////////////////////////////////////////
 
-  //TODO: All of these (especially Monumentality) are too strong for this belief type and should be Reformation, once that belief type is properly implemented
+  //TODO: Most of these (and *especially* Monumentality) are too strong for this belief type and should be Reformation, once that belief type is properly implemented
 
+	{
+		"name": "Blessed Dedications",
+		"type": "Enhancer",
+		"uniques": ["[+2 Culture, +2 Faith] from every [Great Improvement]"]
+	},
  	{
 		"name": "Exodus of the Evangelists",
 		"type": "Enhancer",
@@ -237,6 +242,11 @@
 		"name": "Monumentality",
 		"type": "Enhancer",
 		"uniques": ["[+1] Movement <for [Civilian] units>", "May buy [Worker] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>", "May buy [Settler] units with [Faith] for [3] times their normal Production cost <before the [Industrial era]>"]
+	},
+	{
+		"name": "Power of Light",
+		"type": "Enhancer",
+		"uniques": ["[+1] Sight <for [All] units>", "Earn [25]% of the damage done to [Military] units as [Faith]"]
 	},
 	{
 		"name": "Simultaneum",
