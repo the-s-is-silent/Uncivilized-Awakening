@@ -24,7 +24,9 @@
 	{
 		"name": "National Pantheon",
 		"isNationalWonder": true,
+		"culture": 1,
 		"faith": 3,
+		"happiness": 1,
 		"cost": 155,
 		"uniques": ["Gain a free [Pantheon] belief", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled"],
 		"requiredTech": "Drama and Poetry"
