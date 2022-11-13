@@ -7,7 +7,7 @@
 		"faith": 7,
 		"cost": 220,
 		"isWonder": true,
-		"uniques": ["Must be on [Grassland]", "[+1 Gold] from each Trade Route", "Destroyed when the city is captured", "Hidden when religion is disabled"],
+		"uniques": ["Must be next to [Grassland]", "[+1 Gold] from each Trade Route", "Destroyed when the city is captured", "Hidden when religion is disabled"],
 		"requiredTech": "Pottery",
 		"quote": "'The circle was probably the focus of their ceremonial life ... and the reason people came here from miles away.' - Robert Riordan"
 	},
