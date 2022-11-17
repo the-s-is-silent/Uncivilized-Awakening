@@ -28,7 +28,7 @@
 		"faith": 3,
 		"happiness": 1,
 		"cost": 155,
-		"uniques": ["Gain a free [Pantheon] belief", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled"],
+		"uniques": ["[+50 Faith] whenever a Great Person is expended", "Gain a free [Pantheon] belief", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
