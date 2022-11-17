@@ -1,5 +1,5 @@
 [
-  //TODO: Proper Reformation Beliefs, which I expect to only come in the far future, are needed before this mod can ever be considered to be "finished". A mod option to exclude specific beliefs without making an entire new ruleset would be nice, because honestly, some of the beliefs in Civ 5 are just so weak that they have no business existing and there isn't much of a point in trying to buff or rework them to make them worthwhile. Simply commenting them out in the Beliefs.json file is a bit more tedious. Implementing Civ 6's separation of Worship Buildings into their own belief type would also be nice, but not necessary. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end. And, yes, the hack on Monument to the Gods makes it worse than actual Civ 5 but is regrettably "necessary" considering it's currently one of the most overpowered beliefs in Unciv due to the lack of proper implementation - I might go the Lekmod route later and make it, along with the two similarly restricted Civ 6 pantheons imported here, last one era longer with a slightly higher boost to compensate.
+  //TODO: Proper Reformation Beliefs, which I expect to only come in the far future, are needed before this mod can ever be considered to be "finished". A mod option to exclude specific beliefs without making an entire new ruleset is also necessary, because honestly, some of the beliefs in Civ 5 are just so weak that they have no business existing and there isn't much of a point in trying to buff or rework them to make them worthwhile. Implementing Civ 6's separation of Worship Buildings into their own belief type would be nice, but not necessary. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end. And, yes, the hack on Monument to the Gods makes it worse than actual Civ 5 but is regrettably "necessary" considering it's currently one of the most overpowered beliefs in Unciv due to the lack of proper implementation - I might go the Lekmod route later and make it, along with the two similarly restricted Civ 6 pantheons imported here, last one era longer with a slightly higher boost to compensate.
 	{
 		"name": "City Patron Goddess",
 		"type": "Pantheon",
@@ -268,57 +268,4 @@
 		"type": "Enhancer",
 		"uniques": ["[+100]% Yield from every [Holy site]", "[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>"]
 	},
-
-  // The following beliefs from GNK and BNW are much too weak and trying to rework them is too much of a bother, so they get nuked. Some of them might be salvageable in the future.
-
-/*	{
-//		"name": "Ancestor Worship",
-//		"type": "Pantheon",
-//		"uniques": ["[+1 Culture] from every [Shrine]"]
-	},*/
-/*	{
-//		"name": "Goddess of Love",
-//		"type": "Pantheon",
-//		"uniques": ["[+1 Happiness] <in cities with at least [6] population>"]
-	},*/
-/*	{
-//		"name": "God-King",
-//		"type": "Pantheon",
-//		"uniques": ["[+1 Faith, +1 Culture, +1 Science, +1 Gold, +1 Production] from every [Palace]"]
-	},*/
-/*	{
-//		"name": "Messenger of the Gods",
-//		"type": "Pantheon",
-//		"uniques": ["[+2 Science] from each Trade Route"] //At best, this type of effect should be a Follower belief, seeing as it's way too hard to get anything worthwhile out of it in the early-game
-	},*/
-/*	{
-//		"name": "Sacred Waters",
-//		"type": "Pantheon",
-//		"uniques": ["[+1 Happiness] in cities on [River] tiles"]
-	},*/
-/*	{
-//		"name": "Tears of the Gods",
-//		"type": "Pantheon",
-//		"uniques": ["[+2 Faith] from every [Gems]", "[+2 Faith] from every [Pearls]"]
-	},*/
-/*	{
-//		"name": "Asceticism",
-//		"type": "Follower",
-//		"uniques": ["[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"] //This effect would be much better off being applied to a new Pantheon
-	},*/
-/*	{
-//		"name": "Initiation Rites",
-//		"type": "Founder",
-//		"uniques": ["[+100 Gold] when a city adopts this religion for the first time (modified by game speed)"]
-	},*/
-/*	{
-//		"name": "Interfaith Dialogue",
-//		"type": "Founder",
-//		"uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"]
-	},*/
-/*	{
-//		"name": "Reliquary",
-//		"type": "Enhancer",
-//		"uniques": ["[+50 Faith] whenever a Great Person is expended"] //Moved to National Pantheon
-	},*/
 ]
