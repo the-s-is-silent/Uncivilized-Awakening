@@ -77,6 +77,14 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
+		"name": "Serapeum",
+		"cost": 0,
+		"faith": 3,
+		"culture": 1,
+		"gold": 2,
+		"uniques": ["[+1 Culture, +1 Faith] from [Cattle] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
 		"name": "Stupa",
 		"cost": 0,
 		"faith": 3,
