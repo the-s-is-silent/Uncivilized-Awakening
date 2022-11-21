@@ -108,7 +108,7 @@
 
   ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
 
-  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be quite powerful enough to justify being reassigned to Reformation. Both Great Awakening and the augmented Swords into Ploughshares belief should also be changed into Reformation (Lekmod/Rekmod's equivalent Science-boosting belief Dharma is an Enhancer belief instead but those mods don't respect the purpose of Enhancer beliefs).
+  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be quite powerful enough to justify being reassigned to Reformation. Great Awakening is meant to be Reformation (Lekmod/Rekmod's equivalent Science-boosting belief Dharma is an Enhancer belief instead but those mods don't respect the purpose of Enhancer beliefs), and the augmented Swords into Ploughshares belief should also become Reformation.
 
 	{
 		"name": "Choral Music",
@@ -123,7 +123,7 @@
 	{
 		"name": "Divine inspiration",
 		"type": "Follower",
-		"uniques": ["[+1 Culture, +1 Science, +1 Faith] from every [World Wonder]"]
+		"uniques": ["[+1 Science, +1 Culture, +1 Faith] from every [World Wonder]"]
 	},
 	{
 		"name": "Feed the World",
@@ -183,7 +183,12 @@
 	{
 		"name": "Religious Center",
 		"type": "Follower",
-		"uniques": ["[+2 Happiness] from every [Temple]", "[+5]% [Production] <in cities with a [Temple]>"]
+		"uniques": ["[+2 Happiness] from every [Temple]", "[+10]% [Production] <in cities with a [Temple]>"]
+	},
+	{
+		"name": "Serapea",
+		"type": "Follower",
+		"uniques": ["May buy [Serapeum] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
 		"name": "Stupas",
