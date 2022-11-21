@@ -3,7 +3,7 @@
 	{
 		"name": "City Patron Goddess",
 		"type": "Pantheon",
-		"uniques": ["[+25%] Production when constructing [All] buildings [in cities following this religion] <before the [Medieval era]>"]
+		"uniques": ["[+25]% Production when constructing [All] buildings [in cities following this religion] <before the [Medieval era]>"]
 	},
 	{
 		"name": "Dance of the Aurora",
