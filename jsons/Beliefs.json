@@ -1,5 +1,5 @@
 [
-  //TODO: Proper Reformation Beliefs, which I expect to only come in the far future, are needed before this mod can ever be considered to be "finished". A mod option to exclude specific beliefs without making an entire new ruleset is also necessary, because honestly, some of the beliefs in Civ 5 are just so weak that they have no business existing and there isn't much of a point in trying to buff or rework them to make them worthwhile. Implementing Civ 6's separation of Worship Buildings into their own belief type would be nice, but not necessary. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end. And, yes, the hack on Monument to the Gods makes it worse than actual Civ 5 but is regrettably "necessary" considering it's currently one of the most overpowered beliefs in Unciv due to the lack of proper implementation - I might go the Lekmod route later and make it, along with the two similarly restricted Civ 6 pantheons imported here, last one era longer with a slightly higher boost to compensate.
+  //TODO: Proper Reformation Beliefs, which I expect to only come in the far future, are needed before this mod can ever be considered to be "finished". A mod option to exclude specific beliefs without making an entire new ruleset is also necessary, because honestly, some of the beliefs in Civ 5 are just so weak that they have no business existing and there isn't much of a point in trying to buff or rework them to make them worthwhile. Implementing Civ 6's separation of Worship Buildings into their own belief type would be nice, but not necessary. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end. And, yes, the hack on Monument to the Gods makes it worse than actual Civ 5 but is regrettably "necessary" considering it's currently one of the more overpowered beliefs in Unciv due to the lack of proper implementation - I might go the Lekmod route later and make it, along with the two similarly restricted Civ 6 pantheons imported here, last one era longer with a slightly higher boost to compensate.
 	{
 		"name": "City Patron Goddess",
 		"type": "Pantheon",
@@ -71,6 +71,11 @@
 		"uniques": ["[+1 Faith] from [Forest] tiles [in this city]"]
 	},
 	{
+		"name": "Hero Twins",
+		"type": "Pantheon",
+		"uniques": ["[+15]% Production when constructing [Archery] units [in cities following this religion]", "May buy [Twins Folklore] buildings for [10] [Faith] [in cities following this religion]"]
+	},
+	{
 		"name": "Lady of the Reeds and Marshes",
 		"type": "Pantheon",
 		"uniques": ["[+2 Production] from every [Marsh]", "[+2 Production] from every [Oasis]", "[+2 Production] from every [Flood plains]"]
@@ -108,7 +113,7 @@
 
   ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
 
-  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be quite powerful enough to justify being reassigned to Reformation. Great Awakening is meant to be Reformation (Lekmod/Rekmod's equivalent Science-boosting belief Dharma is an Enhancer belief instead but those mods don't respect the purpose of Enhancer beliefs), and the augmented Swords into Ploughshares belief should also become Reformation.
+  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be powerful enough to justify being reassigned to Reformation. Great Awakening is meant to be Reformation (Lekmod/Rekmod's equivalent Science-boosting belief Dharma is an Enhancer belief instead but those mods don't respect the purpose of Enhancer beliefs), and the augmented Swords into Ploughshares belief should also become Reformation.
 
 	{
 		"name": "Choral Music",
@@ -123,7 +128,7 @@
 	{
 		"name": "Divine inspiration",
 		"type": "Follower",
-		"uniques": ["[+1 Science, +1 Culture, +1 Faith] from every [World Wonder]"]
+		"uniques": ["[+1 Science, +1 Culture, +1 Faith] from every [World Wonder]", "[+1 Science, +1 Culture, +1 Faith] from every [Natural Wonder]"]
 	},
 	{
 		"name": "Feed the World",
@@ -246,7 +251,7 @@
 
   ///////////////////////////////////////// Enhancer beliefs /////////////////////////////////////////
 
-  //TODO: Several of these (*especially* Monumentality) are too strong for this belief type and should be Reformation, once that belief type is properly implemented.
+  //TODO: Several of the new beliefs here (*especially* Monumentality) are too strong for this belief type and should be Reformation, once that belief type is properly implemented.
 
 	{
 		"name": "Blessed Dedications",
@@ -257,6 +262,16 @@
 		"name": "Exodus of the Evangelists",
 		"type": "Enhancer",
 		"uniques": ["[+4 Faith] [in holy cities]", "[+2] Movement <for [Religious] units>", "[Missionary] units built [in cities following this religion] can [Spread Religion] [2] extra times", "[Great Prophet] units built [in cities following this religion] can [Spread Religion] [2] extra times"]
+	},
+	{
+		"name": "Messiah",
+		"type": "Enhancer",
+		"uniques": ["[+33]% Spread Religion Strength <for [Great Prophet] units>", "[-33]% Faith cost of generating Great Prophet equivalents"]
+	},
+	{
+		"name": "Missionary Zeal",
+		"type": "Enhancer",
+		"uniques": ["[+33]% Spread Religion Strength <for [Missionary] units>", "[Missionary] units built [in cities following this religion] receive the [Ignore terrain cost] promotion"]
 	},
 	{
 		"name": "Monumentality",
