@@ -91,4 +91,11 @@
 		"happiness": 2,
 		"uniques": ["[+1 Happiness] per [10] population [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
+	{
+		"name": "Twins Folklore",
+		"cost": 0,
+		"faith": 1,
+		"culture": 1,
+		"uniques": ["Limited to [1] per Civilization", "[+1 Faith] from [Camp] tiles [in this city]", "Gain a free [Pantheon] belief", "Unbuildable", "Unsellable", "Hidden when religion is disabled"]
+	},
 ]
