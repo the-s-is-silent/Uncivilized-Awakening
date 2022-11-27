@@ -23,7 +23,8 @@
 	{
 		"name": "Faith Healers",
 		"type": "Pantheon",
-		"uniques": ["All newly-trained [Land] units [in this city] receive the [Faith Healers] promotion", "[All] units adjacent to this city heal [25] HP per turn when healing"]
+		"uniques": ["All newly-trained [Land] units [in this city] receive the [Faith Healers] promotion", "[All] units adjacent to this city heal [30] HP per turn when healing"]
+		//This should be worded better
 	},
 	{
 		"name": "Fertility Rites",
@@ -69,6 +70,11 @@
 		"name": "Lady of the Reeds and Marshes",
 		"type": "Pantheon",
 		"uniques": ["[+2 Production] from every [Marsh]", "[+2 Production] from every [Oasis]", "[+2 Production] from every [Flood plains]"]
+	},
+	{
+		"name": "Messenger of the Gods",
+		"type": "Pantheon",
+		"uniques": ["All newly-trained [Sword] units [in this city] receive the [Messenger of the Gods] promotion"]
 	},
 	{
 		"name": "Religious Idols",
@@ -174,6 +180,11 @@
 		"name": "Religious Center",
 		"type": "Follower",
 		"uniques": ["[+2 Happiness] from every [Temple]", "[+10]% [Production] <in cities with a [Temple]>"]
+	},
+	{
+		"name": "Religious Community",
+		"type": "Follower",
+		"uniques": ["[+2 Gold, +2 Science, +2 Faith] from each Trade Route"]
 	},
 	{
 		"name": "Serapea",
