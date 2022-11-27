@@ -2,6 +2,10 @@
 //Uniques that should be kept on upgrades
 	{
 		"name": "Faith Healers",
-		"uniques": ["All adjacent units heal [5] HP when healing"]
+		"uniques": ["All adjacent units heal [10] HP when healing"]
+	},
+	{
+		"name": "Messenger of the Gods",
+		"uniques": ["[+1] Movement", "Ignores terrain cost"]
 	},
 ]
