@@ -64,7 +64,7 @@
 	{
 		"name": "Hero Twins",
 		"type": "Pantheon",
-		"uniques": ["[+15]% Production when constructing [Archery] units [in cities following this religion]", "[+1 Faith] from every [Camp]"]
+		"uniques": ["[+15]% Production when constructing [Archery] units [in this city]", "[+1 Faith] from every [Camp]"]
 	},
 	{
 		"name": "Lady of the Reeds and Marshes",
@@ -267,7 +267,7 @@
 	{
 		"name": "Missionary Zeal",
 		"type": "Enhancer",
-		"uniques": ["[+33]% Spread Religion Strength <for [Missionary] units>", "[Missionary] units built [in cities following this religion] receive the [Ignore terrain cost] promotion"]
+		"uniques": ["[+33]% Spread Religion Strength <for [Missionary] units>", "[Missionary] units gain the [Ignore terrain cost] promotion"]
 	},
 	{
 		"name": "Monumentality",
