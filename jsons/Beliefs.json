@@ -57,6 +57,11 @@
 		"uniques": ["[+1 Production, +1 Food] from every [Camp]"]
 	},
 	{
+		"name": "God-King",
+		"type": "Pantheon",
+		"uniques": ["[+1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] from every [Palace]", "[+1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith] per [4] population [in capital]"]
+	},
+	{
 		"name": "Hallowed Grove",
 		"type": "Pantheon",
 		"uniques": ["[+1 Faith] from [Forest] tiles [in this city]"]
@@ -162,7 +167,7 @@
 		"uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
-		"name": "Monasticism",
+		"name": "Monastic Isolation",
 		"type": "Follower",
 		"uniques": ["[+3 Science] from every [Holy site]", "[-25]% [Culture] [in all cities]"]
 	},
