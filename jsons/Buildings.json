@@ -85,10 +85,18 @@
 		"uniques": ["[+1 Culture, +1 Faith] from [Cattle] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
+		"name": "Shuyuan",
+		"cost": 0,
+		"faith": 1,
+		"science": 3,
+		"happiness": 1,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
 		"name": "Stupa",
 		"cost": 0,
 		"faith": 3,
-		"happiness": 2,
+		"happiness": 3,
 		"uniques": ["[+1 Happiness] per [10] population [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 ]
