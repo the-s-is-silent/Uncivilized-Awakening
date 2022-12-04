@@ -197,6 +197,11 @@
 		"uniques": ["May buy [Serapeum] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
+		"name": "Shūyuàn",
+		"type": "Follower",
+		"uniques": ["May buy [Shuyuan] buildings with [Faith] [in cities following this religion]"]
+	},
+	{
 		"name": "Stupas",
 		"type": "Follower",
 		"uniques": ["May buy [Stupa] buildings with [Faith] [in cities following this religion]"]
