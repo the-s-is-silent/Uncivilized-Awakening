@@ -132,6 +132,11 @@
 		"uniques": ["[+1 Science, +1 Culture, +1 Faith] from every [World Wonder]", "[+1 Science, +1 Culture, +1 Faith] from every [Natural Wonder]"]
 	},
 	{
+		"name": "Esoteric Alteration",
+		"type": "Follower",
+		"uniques": ["[+1 Faith] per [3] population [in cities following this religion]", "[-20]% Natural religion spread [in all cities]"]
+	},
+	{
 		"name": "Feed the World",
 		"type": "Follower",
 		"uniques": ["[+3 Food] from every [Shrine]", "[+3 Food] from every [Temple]"]
