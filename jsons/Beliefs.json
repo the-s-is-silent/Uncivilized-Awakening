@@ -1,6 +1,11 @@
 [
   //TODO: Proper Reformation Beliefs, which I expect to only come in the far future, are needed before this mod can ever be considered to be "finished". A mod option to exclude specific beliefs without making an entire new ruleset is also necessary, because honestly, some of the beliefs in Civ 5 are just so weak that they have no business existing and there isn't much of a point in trying to buff or rework them to make them worthwhile. Implementing Civ 6's separation of Worship Buildings into their own belief type would be nice, but not necessary. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end.
 	{
+		"name": "Ancestor Worship",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from every [Monument]", "[+1 Culture] from every [Shrine]"]
+	},
+	{
 		"name": "Dance of the Aurora",
 		"type": "Pantheon",
 		"uniques": ["[+1 Faith] from every [Tundra] <within [2] tiles of a [City center]>"]
