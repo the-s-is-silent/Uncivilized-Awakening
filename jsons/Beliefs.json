@@ -280,6 +280,11 @@
 		"uniques": ["[+4 Faith] [in holy cities]", "[+2] Movement <for [Religious] units>", "[Missionary] units built [in cities following this religion] can [Spread Religion] [2] extra times", "[Great Prophet] units built [in cities following this religion] can [Spread Religion] [2] extra times"]
 	},
 	{
+		"name": "Inquisition",
+		"type": "Enhancer",
+		"uniques": ["[Faith] cost of purchasing [Inquisitor] units [-50]%", "[Inquisitor] units built [in cities following this religion] can [Remove foreign religions from your own cities] [1] extra times"]
+	},
+	{
 		"name": "Messiah",
 		"type": "Enhancer",
 		"uniques": ["[+33]% Spread Religion Strength <for [Great Prophet] units>", "[-33]% Faith cost of generating Great Prophet equivalents"]
