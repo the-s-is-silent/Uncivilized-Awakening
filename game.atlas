@@ -1,0 +1,230 @@
+
+game.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Apostolic Palace
+  rotate: false
+  xy: 4, 764
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Basilica
+  rotate: false
+  xy: 4, 556
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Grand Master's Chapel
+  rotate: false
+  xy: 4, 348
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gurdwara
+  rotate: false
+  xy: 212, 556
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Meeting House
+  rotate: false
+  xy: 420, 764
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Moorehead Circle
+  rotate: false
+  xy: 212, 348
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/National Pantheon
+  rotate: false
+  xy: 420, 556
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Serapeum
+  rotate: false
+  xy: 212, 140
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shuyuan
+  rotate: false
+  xy: 420, 348
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stupa
+  rotate: false
+  xy: 628, 556
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Texcotzingo
+  rotate: false
+  xy: 836, 764
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/Amatongo
+  rotate: false
+  xy: 4, 4
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Anglicanism
+  rotate: false
+  xy: 420, 212
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Baha'i
+  rotate: false
+  xy: 628, 420
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Baptist Christianity
+  rotate: false
+  xy: 836, 628
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Canaanism
+  rotate: false
+  xy: 1044, 836
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Chaldeanism
+  rotate: false
+  xy: 140, 4
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Druidism
+  rotate: false
+  xy: 1180, 836
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Hellenism
+  rotate: false
+  xy: 276, 4
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Jainism
+  rotate: false
+  xy: 1316, 836
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Mormonism
+  rotate: false
+  xy: 1452, 836
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Orenda
+  rotate: false
+  xy: 1588, 836
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Oriental Orthodoxy
+  rotate: false
+  xy: 1724, 836
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Pesedjet
+  rotate: false
+  xy: 1860, 836
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Pohakantenna
+  rotate: false
+  xy: 420, 76
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Puata Tupuna
+  rotate: false
+  xy: 556, 212
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Romuva
+  rotate: false
+  xy: 556, 76
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Sairimaism
+  rotate: false
+  xy: 764, 420
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Scientology
+  rotate: false
+  xy: 628, 764
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/Tlateomatiliztli
+  rotate: false
+  xy: 972, 628
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Faith Healers
+  rotate: false
+  xy: 212, 764
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Messenger of the Gods
+  rotate: false
+  xy: 4, 140
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
