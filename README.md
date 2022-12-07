@@ -3,4 +3,4 @@ Attempts to enhance the lackluster Religion concept without being (quite) as ove
 
 While not required (at least not yet), it is recommended to have the BNW mod enabled when using this mod.
 
-All Religion icons can be found at [the Civ V Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions), except for Scientology which uses [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols on The Noun Project. All other icons are from The Noun Project.
+All Religion icons can be found at [the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions), except for Scientology which uses [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols on [The Noun Project](https://thenounproject.com/). All other icons are from The Noun Project.
