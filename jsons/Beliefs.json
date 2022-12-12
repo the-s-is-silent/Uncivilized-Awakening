@@ -97,6 +97,11 @@
 		"uniques": ["[+50]% Production when constructing [Settler] units [in this city]", "[+1 Culture] [in this city]", "[-15]% Culture cost of natural border growth [in this city]"]
 	},
 	{
+		"name": "Sacred Beasts",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from every [Pasture]"]
+	},
+	{
 		"name": "Sacred Path",
 		"type": "Pantheon",
 		"uniques": ["[+1 Faith] from [Jungle] tiles [in this city]"]
@@ -255,6 +260,11 @@
 		"uniques": ["[+3 Faith] for each global city following this religion"]
 	},
 	{
+		"name": "Pontificate",
+		"type": "Founder",
+		"uniques": ["Allied City-States provide [Faith] equal to [50]% of what they produce for themselves"]
+	},
+	{
 		"name": "Stewardship",
 		"type": "Founder",
 		"uniques": ["[+1 Gold] from all [Gold] buildings <in cities with at least [3] [Followers of this Religion]>", "[+1 Science] from all [Science] buildings <in cities with at least [5] [Followers of this Religion]>"]
@@ -303,6 +313,11 @@
 		"name": "Power of Light",
 		"type": "Enhancer",
 		"uniques": ["[+1] Sight <for [All] units>", "Earn [25]% of the damage done to [Military] units as [Faith]"]
+	},
+	{
+		"name": "Religious Colonization",
+		"type": "Enhancer",
+		"uniques": ["[+75]% Natural religion spread [in all cities] <on foreign continents>"]
 	},
 	{
 		"name": "Simultaneum",
