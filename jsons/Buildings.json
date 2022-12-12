@@ -37,7 +37,7 @@
 		"culture": 4,
 		"faith": 8,
 		"cost": 420,
-		"uniques": ["[+2 Production] from all [Faith] buildings", "May choose [1] additional belief(s) of any type when [enhancing] a religion", "Hidden when religion is disabled"],
+		"uniques": ["[+2 Production] from all [Faith] buildings", "May choose [1] additional belief(s) of any type when [enhancing] a religion", "Can only be built [in holy cities]", "Hidden when religion is disabled"],
 		"requiredTech": "Theology",
 		"quote": "'A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral.' - Antoine de Saint-Exupery"
 	},
