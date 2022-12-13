@@ -317,7 +317,7 @@
 	{
 		"name": "Religious Colonization",
 		"type": "Enhancer",
-		"uniques": ["[+75]% Natural religion spread [in all cities] <on foreign continents>"]
+		"uniques": ["[+67]% Natural religion spread [in all cities connected to capital]"]
 	},
 	{
 		"name": "Simultaneum",
