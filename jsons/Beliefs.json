@@ -52,6 +52,11 @@
 		"uniques": ["[+1 Food, +1 Gold] from every [Plantation]"]
 	},
 	{
+		"name": "Goddess of Love",
+		"type": "Pantheon",
+		"uniques": ["[+1 Happiness] per [6] population [in this city]"]
+	},
+	{
 		"name": "Goddess of Protection",
 		"type": "Pantheon",
 		"uniques": ["[+50]% Strength for cities <when attacking>", "[+1 Faith] from every [Walls]", "[+2 Faith] from every [Castle]"]
@@ -197,6 +202,11 @@
 		"uniques": ["[+2 Happiness] from every [Garden]", "[+5 Happiness] from every [Hanging Gardens]", "[+5 Happiness] from every [Texcotzingo]"]
 	},
 	{
+		"name": "Plutolatry",
+		"type": "Follower",
+		"uniques": ["[+5 Gold] from every [World Wonder]"]
+	},
+	{
 		"name": "Religious Center",
 		"type": "Follower",
 		"uniques": ["[+2 Happiness] from every [Temple]", "[+10]% [Production] <in cities with a [Temple]>"]
@@ -262,7 +272,7 @@
 	{
 		"name": "Pontificate",
 		"type": "Founder",
-		"uniques": ["Allied City-States provide [Faith] equal to [50]% of what they produce for themselves"]
+		"uniques": ["[+50]% [Faith] from City-States", "Allied City-States provide [Faith] equal to [50]% of what they produce for themselves"]
 	},
 	{
 		"name": "Stewardship",
@@ -317,7 +327,7 @@
 	{
 		"name": "Religious Colonization",
 		"type": "Enhancer",
-		"uniques": ["[+67]% Natural religion spread [in all cities connected to capital]"]
+		"uniques": ["[+75]% Natural religion spread [in all cities connected to capital]"]
 	},
 	{
 		"name": "Simultaneum",
