@@ -68,6 +68,13 @@
 		"uniques": ["[+15]% growth [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
+		"name": "Khalwat",
+		"cost": 0,
+		"faith": 3,
+		"culture": 2,
+		"uniques": ["All adjacent units to this city heal [10] HP when healing", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
 		"name": "Meeting House",
 		"cost": 0,
 		"faith": 3,
@@ -97,5 +104,13 @@
 		"faith": 3,
 		"happiness": 3,
 		"uniques": ["[+1 Happiness] per [10] population [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Surau",
+		"cost": 0,
+		"faith": 3,
+		"science": 1,
+		"culture": 1,
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 ]
