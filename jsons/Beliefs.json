@@ -28,7 +28,7 @@
 	{
 		"name": "Faith Healers",
 		"type": "Pantheon",
-		"uniques": ["All newly-trained [Land] units [in this city] receive the [Faith Healers] promotion", "[All] units adjacent to this city heal [30] HP per turn when healing"]
+		"uniques": ["All newly-trained [Land] units [in this city] receive the [Faith Healers] promotion", "[All] units adjacent to this city heal [20] HP per turn when healing"]
 		//This should be worded better
 	},
 	{
@@ -172,6 +172,11 @@
 		"uniques": ["May buy [University] buildings with [Faith] for [2] times their normal Production cost", "May buy [Public School] buildings with [Faith] for [2] times their normal Production cost", "May buy [Research Lab] buildings with [Faith] for [2] times their normal Production cost"]
 	},
 	{
+		"name": "Khalwat",
+		"type": "Follower",
+		"uniques": ["May buy [Khalwat] buildings with [Faith] [in cities following this religion"]
+	},
+	{
 		"name": "Linga",
 		"type": "Follower",
 		"uniques": ["May buy [Lighthouse] buildings with [Faith] for [2] times their normal Production cost", "May buy [Harbor] buildings with [Faith] for [2] times their normal Production cost", "May buy [Seaport] buildings with [Faith] for [2] times their normal Production cost"]
@@ -232,6 +237,11 @@
 		"uniques": ["May buy [Stupa] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
+		"name": "Suraus",
+		"type": "Follower",
+		"uniques": ["May buy [Surau] buildings with [Faith] [in cities following this religion]"]
+	},
+	{
 		"name": "Swords into Ploughshares",
 		"type": "Follower",
 		"uniques": ["[+1 Food] from [Farm] tiles [in this city] <when not at war>", "[+15]% growth [in this city] <when not at war>"]
@@ -239,7 +249,7 @@
 	{
 		"name": "Works Righteousness",
 		"type": "Follower",
-		"uniques": ["[+2 Production] from every [Holy site]", "[+1 Production] per [4] population [in cities following this religion]"]
+		"uniques": ["[+1 Production, +2 Faith] from every [Holy site]", "[+1 Production] per [4] population [in cities following this religion]"]
 	},
 
   ///////////////////////////////////////// Founder beliefs /////////////////////////////////////////
