@@ -44,11 +44,19 @@
 	{
 		"name": "Grand Master's Chapel",
 		"faith": 5,
+		"cost": 290,
 		"maintenance": 2,
 		"isNationalWonder": true,
-		"cost": 290,
 		"uniques": ["Can only be built [in capital]", "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "Hidden when religion is disabled"]
 		"requiredTech": "Theology"
+	},
+	{
+		"name": "St. Basil's Cathedral",
+		"faith": 3,
+		"isWonder": true,
+		"uniques": ["Must be next to [Tundra]", "Gain a free [Cathedral] [in this city]", "[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles [in this city]", "Only available <after adopting [Reformation]>", "Hidden when religion is disabled"],
+		"requiredTech": "Architecture",
+		"quote": "'One had a twisted design, red, on a green ground; another, all prickly angles, yellow and black; a third was ornamented with scales of blue and crimson; a fourth was in quarters like a melon.' - Katherine Blanche Guthrie"
 	},
 
 // Worship Buildings
@@ -61,11 +69,18 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
+		"name": "Derasar",
+		"cost": 0,
+		"faith": 3,
+		"culture": 3,
+		"uniques": ["Limited to [5] per Civilization", "[-3]% Culture cost of adopting new Policies", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
 		"name": "Gurdwara",
 		"cost": 0,
 		"faith": 3,
 		"food": 2,
-		"uniques": ["[+15]% growth [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["[+10]% growth [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Khalwat",
