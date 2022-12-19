@@ -90,6 +90,14 @@
 		"uniques": ["All adjacent units to this city heal [10] HP when healing", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
+		"name": "Mandi",
+		"cost: 0,
+		"faith": 3,
+		"food": 2,
+		"gold": 2,
+		"uniques": ["[+1 Food, +1 Faith] from [River] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
 		"name": "Meeting House",
 		"cost": 0,
 		"faith": 3,
