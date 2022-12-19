@@ -92,6 +92,12 @@
 		"uniques": ["All newly-trained [Sword] units [in this city] receive the [Messenger of the Gods] promotion"]
 	},
 	{
+		"name": "One with Nature",
+		"type": "Pantheon",
+		"replacementTextForUniques": ["Natural Wonders and nearby unimproved tiles provide extra Faith"]
+		"uniques": ["[+1 Faith] from every [Friendly Land] <in [unimproved] [Friendly Land] tiles> <within [1] tiles of a [City center]>", "[+5 Faith] from every [Natural Wonder]"]
+	},
+	{
 		"name": "Religious Idols",
 		"type": "Pantheon",
 		"uniques": ["[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]", "[+1 Culture, +1 Faith] from every [Copper]", "[+1 Culture, +1 Faith] from every [Gems]", "[+1 Culture, +1 Faith] from every [Salt]"]
@@ -147,7 +153,7 @@
 		"uniques": ["[+1 Science, +1 Culture, +1 Faith] from every [World Wonder]", "[+1 Science, +1 Culture, +1 Faith] from every [Natural Wonder]"]
 	},
 	{
-		"name": "Esoteric Alteration",
+		"name": "Esotericism",
 		"type": "Follower",
 		"uniques": ["[+1 Faith] per [3] population [in cities following this religion]", "[-20]% Natural religion spread [in all cities]"]
 	},
@@ -179,7 +185,7 @@
 	{
 		"name": "Khalwat",
 		"type": "Follower",
-		"uniques": ["May buy [Khalwat] buildings with [Faith] [in cities following this religion"]
+		"uniques": ["May buy [Khalwat] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
 		"name": "Linga",
@@ -190,6 +196,11 @@
 		"name": "Liturgical Drama",
 		"type": "Follower",
 		"uniques": ["[+2 Faith] from every [Amphitheater]", "[+2 Faith] from every [Opera House]"]
+	},
+	{
+		"name": "Mandis",
+		"type": "Follower",
+		"uniques": ["May buy [Mandi] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
 		"name": "Meeting Houses",
