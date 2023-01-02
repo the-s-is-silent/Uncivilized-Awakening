@@ -1,5 +1,7 @@
 [
-  //TODO: Proper Reformation Beliefs, which I expect to only come in the far future, are needed before this mod can ever be considered to be "finished". A mod option to exclude specific beliefs without making an entire new ruleset is also necessary, because honestly, some of the beliefs in Civ 5 are just so weak that they have no business existing and there isn't much of a point in trying to buff or rework them to make them worthwhile. Implementing Civ 6's separation of Worship Buildings into their own belief type would be nice, but not necessary. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end.
+  //TODO: Proper Reformation Beliefs, which I expect to only come in the far future, are needed before this mod can ever be considered to be "finished". A mod option to exclude specific beliefs without making an entire new ruleset is also necessary, because honestly, some of the beliefs in Civ 5 are just so weak that they have no business existing and there isn't much of a point in trying to buff or rework them to make them worthwhile. Implementing Civ 6's separation of Worship Buildings into their own belief type would be nice, but not necessary. And figuring out a few more good Founder and Enhancer beliefs to add would be nice. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end.
+  //Current list of beliefs that are meant to be Reformation Beliefs (and some of these might have to be nerfed or removed until Reformation is a thing): Exodus of the Evangelists, Great Awakening, Jesuit Education (which is Reformation in 5 but is a Follower Belief in 6), Monumentality, Simultaneum, and the augmented Swords into Ploughshares. Also possibly Blessed Dedications, because while it really shouldn't be an Enhancer Belief since it doesn't respect the rule of Enhancer Beliefs, I have no idea what other belief type it can feasibly be. Linga, however, while it follows the model of "ability to buy non-worship buildings with Faith falls under Reformation", it *probably* isn't powerful enough to justify being reassigned to that belief type.
+
 	{
 		"name": "Ancestor Worship",
 		"type": "Pantheon",
@@ -94,7 +96,7 @@
 	{
 		"name": "One with Nature",
 		"type": "Pantheon",
-		"replacementTextForUniques": ["Natural Wonders and nearby unimproved tiles provide extra Faith"]
+		"replacementTextForUniques": ["Natural Wonders and nearby unimproved tiles provide extra Faith"],
 		"uniques": ["[+1 Faith] from every [Friendly Land] <in [unimproved] [Friendly Land] tiles> <within [1] tiles of a [City center]>", "[+5 Faith] from every [Natural Wonder]"]
 	},
 	{
@@ -130,8 +132,16 @@
 
   ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
 
-  //TODO: Beliefs that allow the purchase of non-worship buildings with Faith should be changed into Reformation beliefs once that belief type from BNW is properly implemented. Linga, however, might not be powerful enough to justify being reassigned to Reformation. Great Awakening is meant to be Reformation (Lekmod/Rekmod's equivalent Science-boosting belief Dharma is an Enhancer belief instead but those mods don't respect the purpose of Enhancer beliefs), and the augmented Swords into Ploughshares belief should also become Reformation.
-
+	{
+		"name": "Asceticism",
+		"type": "Follower",
+		"uniques": ["[+1 Faith] from every specialist [in cities following this religion]"]
+	},
+	{
+		"name": "Beth Mandas",
+		"type": "Follower",
+		"uniques": ["May buy [Beth Manda] buildings with [Faith] [in cities following this religion]"]
+	},
 	{
 		"name": "Choral Music",
 		"type": "Follower",
@@ -155,7 +165,7 @@
 	{
 		"name": "Esotericism",
 		"type": "Follower",
-		"uniques": ["[+1 Faith] per [3] population [in cities following this religion]", "[-20]% Natural religion spread [in all cities]"]
+		"uniques": ["[+2 Faith] per [4] population [in cities following this religion]", "[-20]% Natural religion spread [in all cities]"]
 	},
 	{
 		"name": "Feed the World",
@@ -198,11 +208,6 @@
 		"uniques": ["[+2 Faith] from every [Amphitheater]", "[+2 Faith] from every [Opera House]"]
 	},
 	{
-		"name": "Mandis",
-		"type": "Follower",
-		"uniques": ["May buy [Mandi] buildings with [Faith] [in cities following this religion]"]
-	},
-	{
 		"name": "Meeting Houses",
 		"type": "Follower",
 		"uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
@@ -236,6 +241,11 @@
 		"name": "Religious Community",
 		"type": "Follower",
 		"uniques": ["[+2 Gold, +2 Science, +2 Faith] from each Trade Route"]
+	},
+	{
+		"name": "Reliquary",
+		"type": "Follower",
+		"uniques": ["[+4 Faith] from every [City ruins]"]
 	},
 	{
 		"name": "Serapea",
@@ -312,8 +322,6 @@
 	},
 
   ///////////////////////////////////////// Enhancer beliefs /////////////////////////////////////////
-
-  //TODO: Several of the new beliefs here (*especially* Monumentality) are too strong for this belief type and should be Reformation, once that belief type is properly implemented.
 
 	{
 		"name": "Blessed Dedications",
