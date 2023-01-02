@@ -70,6 +70,14 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
+		"name": "Beth Manda",
+		"cost": 0,
+		"faith": 2,
+		"food": 2,
+		"gold": 2,
+		"uniques": ["[+1 Food, +1 Faith] from [River] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
 		"name": "Derasar",
 		"cost": 0,
 		"faith": 3,
@@ -81,7 +89,7 @@
 		"cost": 0,
 		"faith": 3,
 		"food": 2,
-		"uniques": ["[+10]% growth [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["[+15]% growth [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Khalwat",
@@ -89,14 +97,6 @@
 		"faith": 3,
 		"culture": 2,
 		"uniques": ["All adjacent units to this city heal [10] HP when healing", "Unbuildable", "Hidden when religion is disabled"]
-	},
-	{
-		"name": "Mandi",
-		"cost": 0,
-		"faith": 3,
-		"food": 2,
-		"gold": 2,
-		"uniques": ["[+1 Food, +1 Faith] from [River] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Meeting House",
@@ -120,6 +120,7 @@
 		"faith": 1,
 		"science": 3,
 		"happiness": 1,
+		"specialistSlots": {"Scientist": 1},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -135,6 +136,6 @@
 		"faith": 3,
 		"science": 1,
 		"culture": 1,
-		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 ]
