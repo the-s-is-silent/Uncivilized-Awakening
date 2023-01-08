@@ -7,7 +7,7 @@
 		"faith": 7,
 		"cost": 220,
 		"isWonder": true,
-		"uniques": ["Must be next to [Grassland]", "[+1 Gold] from each Trade Route", "Destroyed when the city is captured", "Hidden when religion is disabled"],
+		"uniques": ["Must be next to [Grassland]", "[+1 Gold] from each Trade Route", "Free [Great Merchant] appears", "Destroyed when the city is captured", "Hidden when religion is disabled"],
 		"requiredTech": "Pottery",
 		"quote": "'The circle was probably the focus of their ceremonial life ... and the reason people came here from miles away.' - Robert Riordan"
 	},
@@ -26,9 +26,9 @@
 		"isNationalWonder": true,
 		"culture": 1,
 		"faith": 3,
-		"happiness": 1,
+		"happiness": 2,
 		"cost": 125,
-		"uniques": ["[+50 Faith] whenever a Great Person is expended", "Gain a free [Pantheon] belief", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled"],
+		"uniques": ["[+50 Faith] whenever a Great Person is expended", "[+1 Happiness] from every [Shrine]", "Gain a free [Pantheon] belief", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -136,6 +136,7 @@
 		"faith": 3,
 		"science": 1,
 		"culture": 1,
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+		"happiness": 1,
+		"uniques": ["[+2 Science, +1 Faith] from [Jungle] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 ]
