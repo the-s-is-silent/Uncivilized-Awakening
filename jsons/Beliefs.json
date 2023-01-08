@@ -245,7 +245,7 @@
 	{
 		"name": "Reliquary",
 		"type": "Follower",
-		"uniques": ["[+4 Faith] from every [City ruins]"]
+		"uniques": ["[+2 Culture, +3 Faith] from every [City ruins]"]
 	},
 	{
 		"name": "Serapea",
