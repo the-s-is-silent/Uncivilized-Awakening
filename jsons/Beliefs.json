@@ -306,11 +306,6 @@
 		"uniques": ["[+3 Faith] for each global city following this religion"]
 	},
 	{
-		"name": "Pontificate",
-		"type": "Founder",
-		"uniques": ["[+50]% [Faith] from City-States", "Allied City-States provide [Faith] equal to [50]% of what they produce for themselves"]
-	},
-	{
 		"name": "Stewardship",
 		"type": "Founder",
 		"uniques": ["[+1 Gold] from all [Gold] buildings <in cities with at least [3] [Followers of this Religion]>", "[+1 Science] from all [Science] buildings <in cities with at least [5] [Followers of this Religion]>"]
