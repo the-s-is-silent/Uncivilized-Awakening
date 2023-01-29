@@ -322,6 +322,7 @@
 		"name": "Blessed Dedications",
 		"type": "Enhancer",
 		"uniques": ["[+2 Culture, +2 Faith] from every [Great Improvement]"]
+		//TODO: Should be reworked around Great Works instead of Great Improvements once BNW is implemented
 	},
  	{
 		"name": "Exodus of the Evangelists",
@@ -361,6 +362,7 @@
 	{
 		"name": "Simultaneum",
 		"type": "Enhancer",
-		"uniques": ["[+100]% Yield from every [Holy site]", "[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>"]
+		"uniques": ["[+50]% Yield from every [Holy site]", "[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>"]
+		//The intended boost is 100% Yield, but until Reformation is implemented only half that amount can be safely handled. Then again, experience with playtesting other mods has shown how broken "+100% Yield" bonuses to tile improvements can get...
 	},
 ]
