@@ -28,8 +28,7 @@
 		"faith": 3,
 		"happiness": 2,
 		"cost": 125,
-		"uniques": ["[+50 Faith] whenever a Great Person is expended", "[+1 Happiness] from every [Shrine]", "Gain a free [Pantheon] belief",
-			"Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled"],
+		"uniques": ["[+50 Faith] whenever a Great Person is expended", "[+1 Happiness] from every [Shrine]", "Gain a free [Pantheon] belief", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -38,15 +37,7 @@
 		"culture": 4,
 		"faith": 8,
 		"cost": 420,
-		"replacementTextForUniques": "Worship Buildings receive +2 Production. Choose one bonus belief when enhancing your Religion.",
-		"uniques": ["[+2 Production] from every [Shrine]", "[+2 Production from every [Temple]", "[+2 Production] from every [Monastery]",
-			"[+2 Production] from every [Cathedral]", "[+2 Production] from every [Mosque]", "[+2 Production] from every [Pagoda]",
-			"[+2 Production] from every [Basilica]", "[+2 Production] from every [Beth Manda]", "[+2 Production] from every [Derasar]",
-			"[+2 Production] from every [Gurdwara]", "[+2 Production] from every [Khalwat]", "[+2 Production] from every [Meeting House]",
-			"[+2 Production] from every [Serapeum]", "[+2 Production] from every [Shuyuan]", "[+2 Production] from every [Stupa]",
-			"[+2 Production] from every [Surau]",
-			"May choose [1] additional belief(s) of any type when [enhancing] a religion",
-			"Can only be built [in holy cities]", "Hidden when religion is disabled"],
+		"uniques": ["[+2 Production] from all [Faith] buildings", "May choose [1] additional belief(s) of any type when [enhancing] a religion", "Can only be built [in holy cities]", "Hidden when religion is disabled"],
 		"requiredTech": "Theology",
 		"quote": "'A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral.' - Antoine de Saint-Exupery"
 	},
