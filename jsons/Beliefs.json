@@ -46,7 +46,7 @@
 	{
 		"name": "God of the Sea",
 		"type": "Pantheon",
-		"uniques": ["[+1 Production] from every [Fishing Boats]", "[+1 Production] from every [Atoll]"]
+		"uniques": ["[+1 Production, +1 Faith] from every [Fishing Boats]", "[+1 Production, +1 Faith] from every [Atoll]"]
 	},
 	{
 		"name": "Goddess of Festivals",
@@ -160,7 +160,7 @@
 	{
 		"name": "Divine inspiration",
 		"type": "Follower",
-		"uniques": ["[+1 Science, +1 Culture, +1 Faith] from every [World Wonder]", "[+1 Science, +1 Culture, +1 Faith] from every [Natural Wonder]"]
+		"uniques": ["[+1 Science, +1 Culture, +2 Faith] from every [World Wonder]", "[+1 Science, +1 Culture, +2 Faith] from every [Natural Wonder]"]
 	},
 	{
 		"name": "Esotericism",
