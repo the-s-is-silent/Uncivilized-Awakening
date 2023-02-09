@@ -359,6 +359,11 @@
 		"uniques": ["[+75]% Natural religion spread [in all cities connected to capital]"]
 	},
 	{
+		"name": "Religious Fervor",
+		"type": "Enhancer",
+		"uniques": ["[Inquisitor] units gain the [Religious Fervor] promotion", "[Great Prophet] units gain the [Religious Fervor] promotion"]
+	},
+	{
 		"name": "Simultaneum",
 		"type": "Enhancer",
 		"uniques": ["[+50]% Yield from every [Holy site]", "[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>"]
