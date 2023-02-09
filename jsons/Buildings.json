@@ -7,7 +7,7 @@
 		"faith": 7,
 		"cost": 220,
 		"isWonder": true,
-		"uniques": ["Must be next to [Grassland]", "[+1 Gold] from each Trade Route", "Free [Great Merchant] appears", "Destroyed when the city is captured", "Hidden when religion is disabled"],
+		"uniques": ["Must be next to [Grassland]", "[+1 Gold] from each Trade Route", "Free [Great Merchant] appears", "Destroyed when the city is captured", "Hidden when religion is disabled"], //Should be +1 Land Trade Route capacity and a free Caravan when BNW is fully implemented
 		"requiredTech": "Pottery",
 		"quote": "'The circle was probably the focus of their ceremonial life ... and the reason people came here from miles away.' - Robert Riordan"
 	},
@@ -96,7 +96,7 @@
 		"cost": 0,
 		"faith": 3,
 		"culture": 2,
-		"uniques": ["All adjacent units to this city heal [10] HP when healing", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["[All] units adjacent to this city heal [+10] HP when healing", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Meeting House",
@@ -105,6 +105,22 @@
 		"production": 2,
 		"percentStatBonus": {"production": 5},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Mosque",
+		"cost": 0,
+		"culture": 2,
+		"faith": 3,
+		"happiness": 1,
+		"uniques": ["[+25]% Natural religion spread [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Pagoda",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"happiness": 2,
+		"uniques": ["Limited to [5] per Civilization", "Resting point for influence with City-States [+3]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Serapeum",
