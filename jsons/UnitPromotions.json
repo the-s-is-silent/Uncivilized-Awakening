@@ -12,4 +12,8 @@
 		"name": "Messenger of the Gods",
 		"uniques": ["[+1] Movement", "Ignores terrain cost"]
 	},
+	{
+		"name": "Religious Fervor",
+		"uniques": ["[+20]% Strength bonus for [Military] units within [2] tiles"]
+	},
 ]
