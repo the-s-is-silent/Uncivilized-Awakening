@@ -2,7 +2,11 @@
 //Uniques that should be kept on upgrades
 	{
 		"name": "Faith Healers",
-		"uniques": ["All adjacent units heal [10] HP when healing"]
+		"uniques": ["All adjacent units heal [+10] HP when healing"]
+	},
+	{
+		"name": "Holy Warriors",
+		"uniques": ["[+15]% Strength when stacked with [Missionary]", "[+15]% Strength when stacked with [Great Prophet]"]
 	},
 	{
 		"name": "Messenger of the Gods",
