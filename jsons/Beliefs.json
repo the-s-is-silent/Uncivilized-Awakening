@@ -30,8 +30,7 @@
 	{
 		"name": "Faith Healers",
 		"type": "Pantheon",
-		"uniques": ["All newly-trained [Land] units [in this city] receive the [Faith Healers] promotion", "[All] units adjacent to this city heal [20] HP per turn when healing"]
-		//This should be worded better
+		"uniques": ["All newly-trained [Land] units [in this city] receive the [Faith Healers] promotion", "[All] units adjacent to this city heal [+20] HP per turn when healing"]
 	},
 	{
 		"name": "Fertility Rites",
@@ -61,7 +60,7 @@
 	{
 		"name": "Goddess of Protection",
 		"type": "Pantheon",
-		"uniques": ["[+50]% Strength for cities <when attacking>", "[+1 Faith] from every [Walls]", "[+2 Faith] from every [Castle]"]
+		"uniques": ["[+50]% Strength for cities <when attacking>", "[+1 Faith] from every [Walls]", "[+1 Faith] from every [Castle]"]
 	},
 	{
 		"name": "Goddess of the Hunt",
@@ -165,7 +164,7 @@
 	{
 		"name": "Esotericism",
 		"type": "Follower",
-		"uniques": ["[+2 Faith] per [4] population [in cities following this religion]", "[-20]% Natural religion spread [in all cities]"]
+		"uniques": ["[+2 Faith] per [5] population [in cities following this religion]", "[-20]% Natural religion spread [in all cities]"]
 	},
 	{
 		"name": "Feed the World",
@@ -185,7 +184,7 @@
 	{
 		"name": "Holy Warriors",
 		"type": "Follower",
-		"uniques": ["[+1 Faith] from every [Barracks]", "[+2 Faith] from every [Armory]", "[+3 Faith] from every [Military Academy]"]
+		"uniques": ["[+2 Faith] from every [Barracks]", "All newly-trained [{Military} {Land}] units [in this city] receive the [Holy Warriors] promotion"]
 	},
 	{
 		"name": "Jesuit Education",
@@ -293,7 +292,7 @@
 	{
 		"name": "Lay Ministry",
 		"type": "Founder",
-		"uniques": ["[+1 Faith] from all [Faith] buildings <in cities with at least [3] [Followers of this Religion]>", "[+1 Culture] from all [Culture] buildings <in cities with at least [5] [Followers of this Religion]>"]
+		"uniques": ["[+1 Faith] from all [Faith] buildings <in cities with at least [3] [Followers of this Religion]> <when not at war>", "[+1 Culture] from all [Culture] buildings <in cities with at least [5] [Followers of this Religion]> <when not at war>"]
 	},
 	{
 		"name": "Papal Primacy",
@@ -308,7 +307,7 @@
 	{
 		"name": "Stewardship",
 		"type": "Founder",
-		"uniques": ["[+1 Gold] from all [Gold] buildings <in cities with at least [3] [Followers of this Religion]>", "[+1 Science] from all [Science] buildings <in cities with at least [5] [Followers of this Religion]>"]
+		"uniques": ["[+1 Gold] from all [Gold] buildings <in cities with at least [3] [Followers of this Religion]> <when not at war>", "[+1 Science] from all [Science] buildings <in cities with at least [5] [Followers of this Religion]> <when not at war>"]
 	},
 	{
 		"name": "World Church",
