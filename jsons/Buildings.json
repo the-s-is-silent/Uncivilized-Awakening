@@ -28,7 +28,7 @@
 		"faith": 3,
 		"happiness": 2,
 		"cost": 125,
-		"uniques": ["[+50 Faith] whenever a Great Person is expended", "[+1 Happiness] from every [Shrine]", "Gain a free [Pantheon] belief", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled"],
+		"uniques": ["[+1 Happiness] from every [Shrine]", "Gain a free [Pantheon] belief", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -72,10 +72,18 @@
 	{
 		"name": "Beth Manda",
 		"cost": 0,
-		"faith": 2,
+		"faith": 1,
 		"food": 2,
 		"gold": 2,
 		"uniques": ["[+1 Food, +1 Faith] from [River] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Chapter House",
+		"cost": 0,
+		"faith": 2,
+		"cityStrength": 5,
+		"cityHealth": 25,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Unbuildable", "Destroyed when the city is captured", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Derasar",
@@ -87,9 +95,10 @@
 	{
 		"name": "Gurdwara",
 		"cost": 0,
-		"faith": 3,
+		"faith": 2,
+		"culture": 1,
 		"food": 2,
-		"uniques": ["[+15]% growth [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["[10]% Food is carried over after population increases [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Khalwat",
@@ -112,7 +121,7 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
-		"uniques": ["[+25]% Natural religion spread [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["[+34]% Natural religion spread [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Pagoda",
@@ -142,9 +151,10 @@
 	{
 		"name": "Stupa",
 		"cost": 0,
-		"faith": 3,
+		"faith": 1,
+		"culture": 1,
 		"happiness": 3,
-		"uniques": ["[+1 Happiness] per [10] population [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["[-10]% Unhappiness from [Population] [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Surau",
