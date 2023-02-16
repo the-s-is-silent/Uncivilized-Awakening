@@ -1,6 +1,6 @@
 [
   //TODO: Proper Reformation Beliefs, which I expect to only come in the far future, are needed before this mod can ever be considered to be "finished". A mod option to exclude specific beliefs without making an entire new ruleset is also necessary, because honestly, some of the beliefs in Civ 5 are just so weak that they have no business existing and there isn't much of a point in trying to buff or rework them to make them worthwhile. Implementing Civ 6's separation of Worship Buildings into their own belief type would be nice, but not necessary. And figuring out a few more good Founder and Enhancer beliefs to add would be nice. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end.
-  //Current list of beliefs that are meant to be Reformation Beliefs (and some of these might have to be nerfed or removed until Reformation is a thing): Exodus of the Evangelists, Great Awakening, Jesuit Education (which is Reformation in 5 but is a Follower Belief in 6), Monumentality, Simultaneum, and the augmented Swords into Ploughshares. Also possibly Blessed Dedications, because while it really shouldn't be an Enhancer Belief since it doesn't respect the rule of Enhancer Beliefs, I have no idea what other belief type it can feasibly be. Linga, however, while it follows the model of "ability to buy non-worship buildings with Faith falls under Reformation", it *probably* isn't powerful enough to justify being reassigned to that belief type.
+  //Current list of beliefs that are meant to be Reformation Beliefs (and some of these might have to be nerfed or removed until Reformation is a thing): Exodus of the Evangelists, Great Awakening, Jesuit Education (which is Reformation in 5 but is a Follower Belief in 6), Monumentality, Puritan Ethics, Religious Fervor (which is also Reformation in 5), Simultaneum, and the augmented Swords into Ploughshares. Linga, however, while it follows the model of "ability to buy non-worship buildings with Faith falls under Reformation", it *probably* isn't powerful enough to justify being reassigned to that belief type.
 
 	{
 		"name": "Ancestor Worship",
@@ -28,11 +28,6 @@
 		"uniques": ["[+1 Faith] from every [Mine]"]
 	},
 	{
-		"name": "Faith Healers",
-		"type": "Pantheon",
-		"uniques": ["All newly-trained [Land] units [in this city] receive the [Faith Healers] promotion", "[All] units adjacent to this city heal [+20] HP per turn when healing"]
-	},
-	{
 		"name": "Fertility Rites",
 		"type": "Pantheon",
 		"uniques": ["[+100]% Production when constructing [Worker] units [in this city]", "[+2 Food] [in this city]", "[+10]% growth [in this city]"]
@@ -46,6 +41,11 @@
 		"name": "God of the Sea",
 		"type": "Pantheon",
 		"uniques": ["[+1 Production, +1 Faith] from every [Fishing Boats]", "[+1 Production, +1 Faith] from every [Atoll]"]
+	},
+	{
+		"name": "God of War",
+		"type": "Pantheon",
+		"uniques": ["[+2 Production] from every [Barracks]", "Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
 	},
 	{
 		"name": "Goddess of Festivals",
@@ -90,7 +90,7 @@
 	{
 		"name": "Messenger of the Gods",
 		"type": "Pantheon",
-		"uniques": ["All newly-trained [Sword] units [in this city] receive the [Messenger of the Gods] promotion"]
+		"uniques": ["All newly-trained [Sword] units [in this city] receive the [Messenger of the Gods] promotion", "[+1 Gold, +1 Faith] from each Trade Route"]
 	},
 	{
 		"name": "One with Nature",
@@ -147,6 +147,11 @@
 		"uniques": ["[+1 Culture] from every [Shrine]", "[+2 Culture] from every [Temple]"]
 	},
 	{
+		"name": "Chosen People",
+		"type": "Follower",
+		"uniques": ["[-25]% Culture cost of natural border growth [in cities following this religion]", "[+3 Faith] from every [National Wonder]"]
+	},
+	{
 		"name": "Dāna",
 		"type": "Follower",
 		"uniques": ["[+1 Happiness, +3 Faith] from every [Granary]"]
@@ -167,9 +172,14 @@
 		"uniques": ["[+2 Faith] per [5] population [in cities following this religion]", "[-20]% Natural religion spread [in all cities]"]
 	},
 	{
+		"name": "Faith Healers",
+		"type": "Follower",
+		"uniques": ["All newly-trained [Land] units [in cities following this religion] receive the [Faith Healers] promotion", "[All] units adjacent to this city heal [+20] HP per turn when healing", "[+1 Faith] from all [Food] buildings [in cities following this religion]"]
+	},
+	{
 		"name": "Feed the World",
 		"type": "Follower",
-		"uniques": ["[+3 Food] from every [Shrine]", "[+3 Food] from every [Temple]"]
+		"uniques": ["[+1 Food] from all [Faith] buildings [in cities following this religion]", "[+2 Food] from every [Holy site]"]
 	},
 	{
 		"name": "Great Awakening",
@@ -212,6 +222,11 @@
 		"uniques": ["May buy [Meeting House] buildings with [Faith] [in cities following this religion]"]
 	},
 	{
+		"name": "Militant Orders",
+		"type": "Follower",
+		"uniques": ["May buy [Chapter House] buildings with [Faith] [in cities following this religion]"]
+	},
+	{
 		"name": "Monastic Isolation",
 		"type": "Follower",
 		"uniques": ["[+3 Science] from every [Holy site]", "[-25]% [Culture] [in all cities]"]
@@ -232,6 +247,11 @@
 		"uniques": ["[+5 Gold] from every [World Wonder]"]
 	},
 	{
+		"name": "Puritan Ethics",
+		"type": "Follower",
+		"uniques": ["May buy [Workshop] buildings with [Faith] for [2] times their normal Production cost", "May buy [Windmill] buildings with [Faith] for [2] times their normal Production cost", "May buy [Factory] buildings with [Faith] for [2] times their normal Production cost"]
+	},
+	{
 		"name": "Religious Center",
 		"type": "Follower",
 		"uniques": ["[+2 Happiness] from every [Temple]", "[+10]% [Production] <in cities with a [Temple]>"]
@@ -240,11 +260,6 @@
 		"name": "Religious Community",
 		"type": "Follower",
 		"uniques": ["[+2 Gold, +2 Science, +2 Faith] from each Trade Route"]
-	},
-	{
-		"name": "Reliquary",
-		"type": "Follower",
-		"uniques": ["[+2 Culture, +3 Faith] from every [City ruins]"]
 	},
 	{
 		"name": "Serapea",
@@ -317,12 +332,6 @@
 
   ///////////////////////////////////////// Enhancer beliefs /////////////////////////////////////////
 
-	{
-		"name": "Blessed Dedications",
-		"type": "Enhancer",
-		"uniques": ["[+2 Culture, +2 Faith] from every [Great Improvement]"]
-		//TODO: Should be reworked around Great Works instead of Great Improvements once BNW is implemented
-	},
  	{
 		"name": "Exodus of the Evangelists",
 		"type": "Enhancer",
@@ -351,7 +360,12 @@
 	{
 		"name": "Power of Light",
 		"type": "Enhancer",
-		"uniques": ["[+1] Sight <for [All] units>", "Earn [25]% of the damage done to [Military] units as [Faith]"]
+		"uniques": ["[+1] Sight <for [All] units>", "Earn [30]% of the damage done to [Military] units as [Faith]"]
+	},
+	{
+		"name": "Reliquary",
+		"type": "Enhancer",
+		"uniques": ["[+100 Faith] whenever a Great Person is expended", "[+2 Faith] from every [Great Improvement]"]
 	},
 	{
 		"name": "Religious Colonization",
@@ -361,12 +375,13 @@
 	{
 		"name": "Religious Fervor",
 		"type": "Enhancer",
-		"uniques": ["[Inquisitor] units gain the [Religious Fervor] promotion", "[Great Prophet] units gain the [Religious Fervor] promotion"]
+		"uniques": ["[Great Prophet] units gain the [Religious Fervor] promotion", "May buy [Barracks] buildings with [Faith] for [2] times their normal Production cost", "May buy [Armory] buildings with [Faith] for [2] times their normal Production cost", "May buy [Military Academy] buildings with [Faith] for [2] times their normal Production cost"]
 	},
 	{
 		"name": "Simultaneum",
 		"type": "Enhancer",
 		"uniques": ["[+50]% Yield from every [Holy site]", "[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>"]
 		//The intended boost is 100% Yield, but until Reformation is implemented only half that amount can be safely handled. Then again, experience with playtesting other mods has shown how broken "+100% Yield" bonuses to tile improvements can get...
+		//Also, a TODO: When BNW content is implemented, this belief should probably adopt the Unity of the Prophets effect of Inquisitors + Great Prophets not completely eliminating foreign religions.
 	},
 ]
