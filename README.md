@@ -3,4 +3,4 @@ Attempts to enhance the lackluster Religion concept without being (quite) as ove
 
 While not required (at least not yet), it is recommended to have the BNW mod enabled when using this mod.
 
-All Religion icons were created by Tomatekh on Civ Fanatics and can be found at [the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions), with the sole exception of Scientology which uses [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols on [The Noun Project](https://thenounproject.com/). All other icons are from The Noun Project.
+All Religion icons were created by Tomatekh on Civ Fanatics and can be found at [the Civ 5 Customization Wiki's entry on the Tomatekh's Historical Religions mod](https://civilization-v-customisation.fandom.com/wiki/Tomatekh%27s_Historical_Religions), with two exceptions: Voodoo, which was created by Civ Fanatics user Ryoga, and Scientology, which uses [atom](https://thenounproject.com/icon/atom-1081009/) by ProSymbols on [The Noun Project](https://thenounproject.com/). All other icons are from The Noun Project.
