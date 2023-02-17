@@ -1,6 +1,6 @@
 [
   //TODO: Proper Reformation Beliefs, which I expect to only come in the far future, are needed before this mod can ever be considered to be "finished". A mod option to exclude specific beliefs without making an entire new ruleset is also necessary, because honestly, some of the beliefs in Civ 5 are just so weak that they have no business existing and there isn't much of a point in trying to buff or rework them to make them worthwhile. Implementing Civ 6's separation of Worship Buildings into their own belief type would be nice, but not necessary. And figuring out a few more good Founder and Enhancer beliefs to add would be nice. Also, the typos in the God of Craftsmen pantheon and Divine Inspiration follower belief in the base game annoy me to no end.
-  //Current list of beliefs that are meant to be Reformation Beliefs (and some of these might have to be nerfed or removed until Reformation is a thing): Exodus of the Evangelists, Great Awakening, Jesuit Education (which is Reformation in 5 but is a Follower Belief in 6), Monumentality, Puritan Ethics, Religious Fervor (which is also Reformation in 5), Simultaneum, and the augmented Swords into Ploughshares. Linga, however, while it follows the model of "ability to buy non-worship buildings with Faith falls under Reformation", it *probably* isn't powerful enough to justify being reassigned to that belief type.
+  //Current list of beliefs that are meant to be Reformation Beliefs (and some of these might have to be nerfed or removed until Reformation is a thing): Exodus of the Evangelists, Great Awakening, Jesuit Education (which is Reformation in 5 but is a Follower Belief in 6), Monumentality, Puritan Ethics, Religious Fervor (which is also Reformation in 5), and Simultaneum. Linga, however, while it follows the model of "ability to buy non-worship buildings with Faith falls under Reformation", it *probably* isn't powerful enough to justify being reassigned to that belief type.
 
 	{
 		"name": "Ancestor Worship",
@@ -284,7 +284,7 @@
 	{
 		"name": "Swords into Ploughshares",
 		"type": "Follower",
-		"uniques": ["[+1 Food] from [Farm] tiles [in this city] <when not at war>", "[+15]% growth [in this city] <when not at war>"]
+		"uniques": ["[+1 Food, +1 Production] from every [Barracks] <when not at war>", "[+1 Food, +1 Production] from every [Armory] <when not at war>", "[+1 Food, +1 Production] from every [Military Academy] <when not at war>", "[+15]% growth [in this city] <when not at war>"]
 	},
 	{
 		"name": "Works Righteousness",
