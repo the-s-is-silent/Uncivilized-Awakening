@@ -51,6 +51,17 @@
 		"requiredTech": "Theology"
 	},
 	{
+		"name": "Shwedagon Paya",
+		"isWonder": true,
+		"culture": 1,
+		"faith": 3,
+		"greatPersonPoints": {"Great Artist": 1},
+		"cost": 300,
+		"uniques": ["Gain a free [Pagoda] [in this city]", "[+1 Gold] from every specialist [in all cities]", "Hidden when religion is disabled"]
+		"requiredTech": "Metal Casting",
+		"quote": "'There was a tumult among men and spirits, the blind beheld objects, the deaf heard sounds. The earth quaked, lightning flashed, gems rained down until they were knee deep, and all trees of the Himalayas, though not in blossom, bore blossoms and fruit.' - King Okkalapa"
+	},
+	{
 		"name": "St. Basil's Cathedral",
 		"faith": 3,
 		"cost": 625,
@@ -164,5 +175,18 @@
 		"culture": 1,
 		"happiness": 1,
 		"uniques": ["[+1 Science, +1 Faith] from [Jungle] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
+	},
+
+//Byzantine support (to compensate users of the "3rd and 4th Unique Components" mod who would otherwise lose a UB with this mod enabled, or for those who just want Byzantium to not be quite so horrible)
+
+	{
+		"name": "Peristyle",
+		"replaces": "Shrine",
+		"uniqueTo": "Byzantium",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled", "[+1 Culture, +1 Faith] from [Luxury resource] tiles [in this city]"]
 	},
 ]
