@@ -99,30 +99,30 @@
 	{
 		"name": "Derasar",
 		"cost": 0,
-		"faith": 2,
 		"culture": 2,
-		"uniques": ["Limited to [5] per Civilization", "[-3]% Culture cost of adopting new Policies", "Unbuildable", "Hidden when religion is disabled"]
+		"faith": 2,
+		"uniques": ["[-3]% Culture cost of adopting new Policies", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Gurdwara",
 		"cost": 0,
-		"faith": 2,
-		"culture": 1,
 		"food": 2,
+		"culture": 1,
+		"faith": 2,
 		"uniques": ["[10]% Food is carried over after population increases [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Khalwat",
 		"cost": 0,
-		"faith": 3,
 		"culture": 2,
+		"faith": 3,
 		"uniques": ["[All] units adjacent to this city heal [+10] HP when healing", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Meeting House",
 		"cost": 0,
-		"faith": 3,
 		"production": 2,
+		"faith": 3,
 		"percentStatBonus": {"production": 5},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
@@ -140,21 +140,21 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Limited to [5] per Civilization", "Resting point for influence with City-States [+3]", "Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Resting point for influence with City-States [+3]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Serapeum",
 		"cost": 0,
-		"faith": 2,
-		"culture": 2,
 		"gold": 2,
+		"culture": 2,
+		"faith": 2,
 		"uniques": ["[+1 Culture, +1 Faith] from [Cattle] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Shuyuan",
 		"cost": 0,
-		"faith": 1,
 		"science": 3,
+		"faith": 1,
 		"happiness": 1,
 		"specialistSlots": {"Scientist": 1},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
@@ -162,17 +162,17 @@
 	{
 		"name": "Stupa",
 		"cost": 0,
-		"faith": 1,
 		"culture": 1,
+		"faith": 1,
 		"happiness": 3,
 		"uniques": ["[-10]% Unhappiness from [Population] [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Surau",
 		"cost": 0,
-		"faith": 3,
 		"science": 1,
 		"culture": 1,
+		"faith": 3,
 		"happiness": 1,
 		"uniques": ["[+1 Science, +1 Faith] from [Jungle] tiles [in this city]", "Unbuildable", "Hidden when religion is disabled"]
 	},
