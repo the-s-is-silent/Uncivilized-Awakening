@@ -189,7 +189,7 @@
 	{
 		"name": "Great Awakening",
 		"type": "Follower",
-		"uniques": ["[+2 Science] from every [Temple]", "[+8 Science] from every [Grand Temple]"]
+		"uniques": ["[+1 Science] from every [Shrine]", "[+2 Science] from every [Temple]"] //The intended full power version will add +8 Science to the Grand Temple - which amounts to a "good luck facing the AI on higher difficulties as they *will* pick full power Great Awakening first if they beat you to the first Religion".
 	},
 	{
 		"name": "Gurdwaras",
