@@ -179,17 +179,18 @@
 	{
 		"name": "Faith Healers",
 		"type": "Follower",
-		"uniques": ["All newly-trained [Land] units [in cities following this religion] receive the [Faith Healers] promotion", "[All] units adjacent to this city heal [+20] HP per turn when healing", "[+1 Faith] from all [Food] buildings [in cities following this religion]"]
+		"uniques": ["All newly-trained [Land] units [in cities following this religion] receive the [Faith Healers] promotion", "[All] units adjacent to this city heal [+20] HP per turn when healing", "[+3 Faith] from every [Hospital]"]
 	},
 	{
 		"name": "Feed the World",
 		"type": "Follower",
-		"uniques": ["[+1 Food] from all [Faith] buildings [in cities following this religion]", "[+2 Food] from every [Holy site]"]
+		"uniques": ["[+2 Food] from every [Shrine]", "[+2 Food] from every [Temple]", "[+2 Food] from every [Holy site]"]
 	},
 	{
 		"name": "Great Awakening",
 		"type": "Follower",
-		"uniques": ["[+1 Science] from every [Shrine]", "[+2 Science] from every [Temple]"] //The intended full power version will add +8 Science to the Grand Temple - which amounts to a "good luck facing the AI on higher difficulties as they *will* pick full power Great Awakening first if they beat you to the first Religion".
+		"uniques": ["[+1 Science] from every [Shrine]", "[+2 Science] from every [Temple]"]
+		//The intended full power version will add +8 Science to the Grand Temple - which amounts to a "good luck facing the AI on higher difficulties as they *will* pick full power Great Awakening first if they beat you to the first Religion".
 	},
 	{
 		"name": "Gurdwaras",
