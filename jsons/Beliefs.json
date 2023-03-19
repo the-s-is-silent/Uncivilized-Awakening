@@ -341,7 +341,7 @@
  	{
 		"name": "Exodus of the Evangelists",
 		"type": "Enhancer",
-		"uniques": ["[+4 Faith] [in holy cities]", "[+2] Movement <for [Religious] units>", "[Missionary] units built [in cities following this religion] can [Spread Religion] [2] extra times", "[Great Prophet] units built [in cities following this religion] can [Spread Religion] [2] extra times"]
+		"uniques": ["[+4 Faith] [in holy cities]", "[+2] Movement <for [Religious] units>", "[Missionary] units built [in cities following this religion] can [Spread Religion] [2] extra times", "[Great Prophet] units built [in cities following this religion] can [Spread Religion] [2] extra times", "Only avaiable <after adopting [Reformation]>"]
 	},
 	{
 		"name": "Inquisition",
@@ -361,7 +361,7 @@
 	{
 		"name": "Monumentality",
 		"type": "Enhancer",
-		"uniques": ["[+1] Movement <for [Civilian] units>", "May buy [Worker] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>", "May buy [Settler] units with [Faith] for [3] times their normal Production cost <before the [Industrial era]>"]
+		"uniques": ["[+1] Movement <for [Civilian] units>", "May buy [Worker] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>", "May buy [Settler] units with [Faith] for [3] times their normal Production cost", "Only available <after adopting [Reformation]>"]
 	},
 	{
 		"name": "Power of Light",
@@ -386,7 +386,7 @@
 	{
 		"name": "Simultaneum",
 		"type": "Enhancer",
-		"uniques": ["[+50]% Yield from every [Holy site]", "[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>"]
+		"uniques": ["[+100]% Yield from every [Holy site]", "[+2 Faith] from all [Faith] buildings <in cities with at least [10] [Followers of this Religion]>", "Only available <after adopting [Reformation]>"]
 		//The intended boost is 100% Yield, but until Reformation is implemented only half that amount can be safely handled. Then again, experience with playtesting other mods has shown how broken "+100% Yield" bonuses to tile improvements can get...
 		//Also, a TODO: When BNW content is implemented, this belief should probably adopt the Unity of the Prophets effect of Inquisitors + Great Prophets not completely eliminating foreign religions.
 	},
