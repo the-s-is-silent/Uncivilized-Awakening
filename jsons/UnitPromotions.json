@@ -1,19 +1,18 @@
 [
-//Uniques that should be kept on upgrades
 	{
-		"name": "Faith Healers",
+		"name": "Healing Hands",
 		"uniques": ["All adjacent units heal [+10] HP when healing"]
 	},
 	{
-		"name": "Holy Warriors",
+		"name": "Holy Calling",
 		"uniques": ["[+15]% Strength when stacked with [Missionary]", "[+15]% Strength when stacked with [Great Prophet]"]
 	},
 	{
-		"name": "Messenger of the Gods",
+		"name": "Divine Messenger",
 		"uniques": ["[+1] Movement", "Ignores terrain cost"]
 	},
 	{
-		"name": "Religious Fervor",
+		"name": "Fanaticism",
 		"uniques": ["[+20]% Strength bonus for [Military] units within [2] tiles"]
-	},
+	}
 ]

@@ -73,7 +73,9 @@
 	{
 		"name": "Goddess of Protection",
 		"type": "Pantheon",
-		"uniques": ["[+50]% Strength for cities <when attacking>", "[+1 Faith] from every [Walls]", "[+1 Faith] from every [Castle]"]
+		"uniques": ["[+50]% Strength for cities <when attacking>",
+			"[+1 Faith] from every [Walls]",
+			"[+1 Faith] from every [Castle]"]
 	},
 	{
 		"name": "Goddess of the Hunt",
@@ -99,12 +101,14 @@
 	{
 		"name": "Lady of the Reeds and Marshes",
 		"type": "Pantheon",
-		"uniques": ["[+2 Production] from every [Marsh]", "[+2 Production] from every [Oasis]", "[+2 Production] from every [Flood plains]"]
+		"uniques": ["[+2 Production] from every [Marsh]",
+			"[+2 Production] from every [Oasis]",
+			"[+2 Production] from every [Flood plains]"]
 	},
 	{
 		"name": "Messenger of the Gods",
 		"type": "Pantheon",
-		"uniques": ["All newly-trained [Sword] units [in this city] receive the [Messenger of the Gods] promotion",
+		"uniques": ["All newly-trained [Sword] units [in this city] receive the [Divine Messenger] promotion",
 			"[+2 Science, +1 Faith] from each Trade Route"]
 	},
 	{
@@ -202,14 +206,16 @@
 	{
 		"name": "Faith Healers",
 		"type": "Follower",
-		"uniques": ["All newly-trained [Land] units [in cities following this religion] receive the [Faith Healers] promotion",
+		"uniques": ["All newly-trained [Land] units [in cities following this religion] receive the [Healing Hands] promotion",
 			"[All] Units adjacent to this city heal [+20] HP per turn when healing",
 			"[+3 Faith] from every [Hospital]"]
 	},
 	{
 		"name": "Feed the World",
 		"type": "Follower",
-		"uniques": ["[+2 Food] from every [Shrine]", "[+2 Food] from every [Temple]", "[+2 Food] from every [Holy site]"]
+		"uniques": ["[+2 Food] from every [Shrine]",
+			"[+2 Food] from every [Temple]",
+			"[+2 Food] from every [Holy site]"]
 	},
 	{
 		"name": "Great Awakening",
@@ -325,7 +331,7 @@
 	{
 		"name": "Works Righteousness",
 		"type": "Follower",
-		"uniques": ["[+2 Production, +3 Faith] from every [Holy site]", "[+1]% [Production] from every follower, up to [10]%"]
+		"uniques": ["[+1 Production, +3 Faith] from every [Holy site]", "[+1]% [Production] from every follower, up to [10]%"]
 	},
 
   ///////////////////////////////////////// Founder beliefs /////////////////////////////////////////
@@ -374,7 +380,8 @@
  	{
 		"name": "Exodus of the Evangelists",
 		"type": "Enhancer",
-		"uniques": ["[+4 Faith] [in holy cities]", "[+2] Movement <for [Religious] units>",
+		"uniques": ["[+4 Faith] [in holy cities]",
+			"[+2] Movement <for [Religious] units>",
 			"[Missionary] units built [in cities following this religion] can [Spread Religion] [2] extra times",
 			"[Great Prophet] units built [in cities following this religion] can [Spread Religion] [2] extra times"]
 	},
@@ -409,12 +416,14 @@
 	{
 		"name": "Reliquary",
 		"type": "Enhancer",
-		"uniques": ["[+100 Faith] whenever a Great Person is expended", "[+2 Culture, +2 Faith] from every [Great Improvement]"]
+		"uniques": ["[+100 Faith] whenever a Great Person is expended",
+			"[+2 Culture, +2 Faith] from every [Great Improvement]"]
 	},
 	{
 		"name": "Religious Troubadours",
 		"type": "Enhancer",
-		"uniques": ["[+68]% Natural religion spread [in all cities connected to capital]", "[+3 Faith] from each Trade Route"]
+		"uniques": ["[+68]% Natural religion spread [in all cities connected to capital]",
+			"[+3 Faith] from each Trade Route"]
 		//Nerf to 50% with BNW fully implemented
 	},
 	{
