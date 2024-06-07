@@ -1,18 +1,27 @@
 [
 	{
+		"name": "Divine Messenger",
+		"uniques": ["[+1] Movement", "Ignores terrain cost"]
+	},
+	{
+		"name": "Evangelism",
+		"uniques": ["Can Spread Religion <[2] additional time(s)>"]
+	},
+	{
+		"name": "Fanaticism",
+		"uniques": ["[+20]% Strength bonus for [Military] units within [2] tiles"]
+	},
+	{
 		"name": "Healing Hands",
 		"uniques": ["All adjacent units heal [+10] HP when healing"]
 	},
 	{
 		"name": "Holy Calling",
-		"uniques": ["[+15]% Strength when stacked with [Missionary]", "[+15]% Strength when stacked with [Great Prophet]"]
+		"uniques": ["[+15]% Strength when stacked with [Missionary]", 
+			"[+15]% Strength when stacked with [Great Prophet]"]
 	},
 	{
-		"name": "Divine Messenger",
-		"uniques": ["[+1] Movement", "Ignores terrain cost"]
-	},
-	{
-		"name": "Fanaticism",
-		"uniques": ["[+20]% Strength bonus for [Military] units within [2] tiles"]
+		"name": "Purge Heresy",
+		"uniques": ["Can remove other religions from cities <in [Friendly] tiles> <[1] additional time(s)>"]
 	}
 ]

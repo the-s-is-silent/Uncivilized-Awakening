@@ -1,22 +1,18 @@
 All images that were borrowed from The Noun Project for use in this mod are listed here (the Religion icons aside from Scientology are all from the Civ 5 Customization Wiki's entry on Tomatekh's Historical Religions, as noted in the Readme)
 
+Buildings
 - Apostolic Palace: Saint Peter's Basilica by József Balázs-Hegedüs
 - Basilica: basilica of the sacred heart by Eucalyp
 - Beth Manda: Mud Hut by Eucalyp
 - Chapter House: cathedral by iconcheese
 - Derasar: nagarparkar jain temple by Brickclay
-- Faith Healers promotion: medical symbol by IconTrack
 - Grand Master's Chapel: cathedral by Juicy Fish
 - Gurdwara: gurdwara by everydayicoons
-- Holy Warriors promotion: Knight Shield by Norbert de Graaff
 - Khalwat: Park by Sentya Irma (yes, this was the closest thing I could find to the original "meditation retreat")
 - Meeting House: Church by Md Saiful Alam Saif
-- Messenger of the Gods promotion: Boot by Maxicons
 - Moorehead Circle: architecture by IconMark
 - National Pantheon: Pantheon by pongsakorn
 - Peristyle: cloister by Grégory Montigny
-- Religious Fervor promotion: templar helmet by Damian Patrignani
-- Scientology "religion": atom by ProSymbols
 - Serapeum: serapeum and pompey's pillar by Brickclay
 - Shuyuan: pavilion by Eucalyp
 - Shwedagon Paya: Shwedagon pagoda by tulpahn
@@ -24,3 +20,13 @@ All images that were borrowed from The Noun Project for use in this mod are list
 - Stupa by Tania Magdieva
 - Surau: landmark gadang house by Ary Prasetyo
 - Texcotzingo: aztec pyramid by ProSymbols
+
+Promotions
+- Divine Messenger: Boot by Maxicons
+- Evangelism: evangelism by Nick Abrams
+- Fanaticism: templar helmet by Damian Patrignani
+- Healing Hands: medical symbol by IconTrack
+- Holy Calling: Knight Shield by Norbert de Graaff
+
+Religions
+- Scientology: atom by ProSymbols

@@ -31,8 +31,10 @@
 		"faith": 3,
 		"happiness": 2,
 		"cost": 125,
-		"uniques": ["[+1 Happiness] from every [Shrine]", "Gain a free [Pantheon] belief",
-			"Requires a [Shrine] in all cities", "Cost increases by [30] per owned city",
+		"uniques": ["[+1 Happiness] from every [Shrine]",
+			"Gain a free [Pantheon] belief",
+			"Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
 			"Hidden when religion is disabled"],
 		"requiredTech": "Drama and Poetry"
 	},
@@ -44,7 +46,8 @@
 		"cost": 420,
 		"uniques": ["[+2 Production] from all [Faith] buildings",
 			"May choose [1] additional belief(s) of any type when [enhancing] a religion",
-			"Can only be built [in holy cities]", "Hidden when religion is disabled"],
+			"Can only be built <in [Holy] cities>",
+			"Hidden when religion is disabled"],
 		"requiredTech": "Theology",
 		"quote": "'A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral.' - Antoine de Saint-Exupery"
 	},
@@ -55,7 +58,8 @@
 		"maintenance": 2,
 		"isNationalWonder": true,
 		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost",
-			"Can only be built [in capital]", "Hidden when religion is disabled"],
+			"Can only be built <in [Capital] cities>",
+			"Hidden when religion is disabled"],
 		"requiredTech": "Theology"
 	},
 	{
@@ -134,7 +138,7 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 3,
-		"uniques": ["[All] units adjacent to this city heal [+10] HP when healing",
+		"uniques": ["[All] Units adjacent to this city heal [+10] HP when healing",
 			"Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -160,7 +164,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Resting point for influence with City-States [+3]",
+		"uniques": ["Resting point for Influence with City-States increased by [+3]",
 			"Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
