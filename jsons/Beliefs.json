@@ -210,7 +210,7 @@
 		"name": "Faith Healers",
 		"type": "Follower",
 		"uniques": ["All newly-trained [Land] units [in cities following this religion] receive the [Healing Hands] promotion",
-			"[All] Units adjacent to this city heal [+20] HP per turn when healing",
+			"[All] Units adjacent to this city heal [20] HP per turn when healing",
 			"[+3 Faith] from every [Hospital]"]
 	},
 	{
@@ -424,7 +424,7 @@
 	{
 		"name": "Reliquary",
 		"type": "Enhancer",
-		"uniques": ["[+100 Faith] whenever a Great Person is expended",
+		"uniques": ["Gain [100] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Culture, +2 Faith] from every [Great Improvement]"]
 	},
 	{

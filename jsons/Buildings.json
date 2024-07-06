@@ -138,7 +138,7 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 3,
-		"uniques": ["[All] Units adjacent to this city heal [+10] HP when healing",
+		"uniques": ["[All] Units adjacent to this city heal [10] HP per turn when healing",
 			"Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -164,7 +164,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Resting point for Influence with City-States increased by [+3]",
+		"uniques": ["Resting point for Influence with City-States is increased by [3]",
 			"Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
