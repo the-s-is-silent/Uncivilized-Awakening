@@ -6,9 +6,13 @@
 		"faith": 7,
 		"cost": 220,
 		"isWonder": true,
-		"uniques": ["Must be next to [Grassland]", "[+1 Gold] from each Trade Route",
+		"uniques": [
+			"Must be next to [Grassland]",
+			"[+1 Gold] from each Trade Route",
 			"Free [Great Merchant] appears",
-			"Destroyed when the city is captured", "Hidden when religion is disabled"],
+			"Destroyed when the city is captured",
+			"Only available <when religion is enabled>"
+		],
 			//Should be +1 Land Trade Route capacity and a free Caravan when BNW is fully implemented
 		"requiredTech": "Pottery",
 		"quote": "'The circle was probably the focus of their ceremonial life ... and the reason people came here from miles away.' - Robert Riordan"
@@ -19,8 +23,12 @@
 		"faith": 4,
 		"cost": 250,
 		"isWonder": true,
-		"uniques": ["Must be next to [Fresh water]", "Gain a free [Garden] [in this city]",
-			"Destroyed when the city is captured", "Hidden when religion is disabled"],
+		"uniques": [
+			"Must be next to [Fresh water]",
+			"Gain a free [Garden] [in this city]",
+			"Destroyed when the city is captured",
+			"Only available <when religion is enabled>"
+		],
 		"requiredTech": "Mathematics",
 		"quote": "'With their sensitivity to the beauty of flowers, birds and gems, their strength of religious feeling ... these ancient Mexicans were civilized men.' - Jacques Soustelle"
 	},
@@ -31,11 +39,13 @@
 		"faith": 3,
 		"happiness": 2,
 		"cost": 125,
-		"uniques": ["[+1 Happiness] from every [Shrine]",
+		"uniques": [
+			"[+1 Happiness] from every [Shrine]",
 			"Gain a free [Pantheon] belief",
 			"Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
-			"Hidden when religion is disabled"],
+			"Only available <when religion is enabled>"
+		],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -44,10 +54,12 @@
 		"culture": 4,
 		"faith": 8,
 		"cost": 420,
-		"uniques": ["[+2 Production] from all [Faith] buildings",
+		"uniques": [
+			"[+2 Production] from all [Faith] buildings",
 			"May choose [1] additional belief(s) of any type when [enhancing] a religion",
 			"Can only be built <in [Holy] cities>",
-			"Hidden when religion is disabled"],
+			"Only available <when religion is enabled>"
+		],
 		"requiredTech": "Theology",
 		"quote": "'A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral.' - Antoine de Saint-Exupery"
 	},
@@ -57,9 +69,11 @@
 		"cost": 290,
 		"maintenance": 2,
 		"isNationalWonder": true,
-		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost",
+		"uniques": [
+			"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost",
 			"Can only be built <in [Capital] cities>",
-			"Hidden when religion is disabled"],
+			"Only available <when religion is enabled>"
+		],
 		"requiredTech": "Theology"
 	},
 	{
@@ -69,9 +83,11 @@
 		"faith": 3,
 		"greatPersonPoints": {"Great Artist": 1},
 		"cost": 300,
-		"uniques": ["Gain a free [Pagoda] [in this city]",
+		"uniques": [
+			"Gain a free [Pagoda] [in this city]",
 			"[+1 Gold] from every specialist [in all cities]",
-			"Hidden when religion is disabled"],
+			"Only available <when religion is enabled>"
+		],
 		"requiredTech": "Metal Casting",
 		"quote": "'There was a tumult among men and spirits, the blind beheld objects, the deaf heard sounds. The earth quaked, lightning flashed, gems rained down until they were knee deep, and all trees of the Himalayas, though not in blossom, bore blossoms and fruit.' - King Okkalapa"
 	},
@@ -80,11 +96,13 @@
 		"faith": 3,
 		"cost": 625,
 		"isWonder": true,
-		"uniques": ["Must be next to [Tundra]",
+		"uniques": [
+			"Must be next to [Tundra]",
 			"Gain a free [Cathedral] [in this city]",
 			"[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles [in this city]",
 			"Only available <after adopting [Reformation]>",
-			"Hidden when religion is disabled"],
+			"Only available <when religion is enabled>"
+		],
 		"requiredTech": "Architecture",
 		"quote": "'One had a twisted design, red, on a green ground; another, all prickly angles, yellow and black; a third was ornamented with scales of blue and crimson; a fourth was in quarters like a melon.' - Katherine Blanche Guthrie"
 	},
@@ -96,7 +114,7 @@
 		"cost": 0,
 		"faith": 5,
 		"percentStatBonus": {"faith": 25},
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Beth Manda",
@@ -104,8 +122,10 @@
 		"faith": 1,
 		"food": 2,
 		"gold": 2,
-		"uniques": ["[+1 Food, +1 Faith] from [River] tiles [in this city]",
-			"Unbuildable", "Hidden when religion is disabled"]
+		"uniques": [
+			"[+1 Food, +1 Faith] from [River] tiles [in this city]",
+			"Unbuildable", "Only available <when religion is enabled>"
+		]
 	},
 	{
 		"name": "Chapter House",
@@ -113,16 +133,20 @@
 		"faith": 2,
 		"cityStrength": 5,
 		"cityHealth": 25,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]",
-			"Unbuildable", "Destroyed when the city is captured", "Hidden when religion is disabled"]
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"Unbuildable", "Destroyed when the city is captured", "Only available <when religion is enabled>"
+		]
 	},
 	{
 		"name": "Derasar",
 		"cost": 0,
 		"culture": 2,
 		"faith": 2,
-		"uniques": ["[-3]% Culture cost of adopting new Policies",
-			"Unbuildable", "Hidden when religion is disabled"]
+		"uniques": [
+			"[-3]% Culture cost of adopting new Policies",
+			"Unbuildable", "Only available <when religion is enabled>"
+		]
 	},
 	{
 		"name": "Gurdwara",
@@ -130,16 +154,20 @@
 		"food": 2,
 		"culture": 1,
 		"faith": 2,
-		"uniques": ["[10]% Food is carried over after population increases [in this city]",
-			"Unbuildable", "Hidden when religion is disabled"]
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]",
+			"Unbuildable", "Only available <when religion is enabled>"
+		]
 	},
 	{
 		"name": "Khalwat",
 		"cost": 0,
 		"culture": 2,
 		"faith": 3,
-		"uniques": ["[All] Units adjacent to this city heal [10] HP per turn when healing",
-			"Unbuildable", "Hidden when religion is disabled"]
+		"uniques": [
+			"[All] Units adjacent to this city heal [10] HP per turn when healing <in this city>",
+			"Unbuildable", "Only available <when religion is enabled>"
+		]
 	},
 	{
 		"name": "Meeting House",
@@ -147,7 +175,7 @@
 		"production": 2,
 		"faith": 3,
 		"percentStatBonus": {"production": 5},
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Mosque",
@@ -155,8 +183,10 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
-		"uniques": ["[+34]% Natural religion spread [in this city]",
-			"Unbuildable", "Hidden when religion is disabled"]
+		"uniques": [
+			"[+34]% Natural religion spread [in this city]",
+			"Unbuildable", "Only available <when religion is enabled>"
+		]
 	},
 	{
 		"name": "Pagoda",
@@ -164,8 +194,10 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Resting point for Influence with City-States is increased by [3]",
-			"Unbuildable", "Hidden when religion is disabled"]
+		"uniques": [
+			"Resting point for Influence with City-States is increased by [3]",
+			"Unbuildable", "Only available <when religion is enabled>"
+		]
 	},
 	{
 		"name": "Serapeum",
@@ -173,8 +205,10 @@
 		"gold": 2,
 		"culture": 2,
 		"faith": 2,
-		"uniques": ["[+1 Culture, +1 Faith] from [Cattle] tiles [in this city]",
-			"Unbuildable", "Hidden when religion is disabled"]
+		"uniques": [
+			"[+1 Culture, +1 Faith] from [Cattle] tiles [in this city]",
+			"Unbuildable", "Only available <when religion is enabled>"
+		]
 	},
 	{
 		"name": "Shuyuan",
@@ -183,7 +217,7 @@
 		"faith": 1,
 		"happiness": 1,
 		"specialistSlots": {"Scientist": 1},
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Stupa",
@@ -191,8 +225,10 @@
 		"culture": 1,
 		"faith": 1,
 		"happiness": 3,
-		"uniques": ["[-10]% Unhappiness from [Population] [in this city]",
-			"Unbuildable", "Hidden when religion is disabled"]
+		"uniques": [
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"Unbuildable", "Only available <when religion is enabled>"
+		]
 	},
 	{
 		"name": "Surau",
@@ -201,8 +237,10 @@
 		"culture": 1,
 		"faith": 3,
 		"happiness": 1,
-		"uniques": ["[+1 Science, +1 Faith] from [Jungle] tiles [in this city]",
-			"Unbuildable", "Hidden when religion is disabled"]
+		"uniques": [
+			"[+1 Science, +1 Faith] from [Jungle] tiles [in this city]",
+			"Unbuildable", "Only available <when religion is enabled>"
+		]
 	},
 
 //Byzantine support (to compensate users of the "3rd and 4th Unique Components" mod who would otherwise lose a UB with this mod enabled, or for those who just want Byzantium to not be quite so horrible)
@@ -215,7 +253,9 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled",
-			"[+1 Culture, +1 Faith] from [Luxury resource] tiles [in this city]"]
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"[+1 Culture, +1 Faith] from [Luxury resource] tiles [in this city]"
+		]
 	}
 ]
